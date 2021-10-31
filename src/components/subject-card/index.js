@@ -1,5 +1,5 @@
 import React from "react";
-import { Container } from "react-bootstrap";
+import { Col, Container, Row } from "react-bootstrap";
 import "./style.css";
 
 export default function SubjectCard() {
@@ -7,6 +7,13 @@ export default function SubjectCard() {
     <Container>
       <section className="mb-5 mt-3">
         <div className="container">
+          <Row>
+            <Col lg={6} md={6} className="mx-auto" style={{ color: "#175b97" }}>
+              <h3 className="mb-5 fs-1 fw-bolder text-center">
+                Our Flagship Courses
+              </h3>
+            </Col>
+          </Row>
           <div className="row g-4">
             <div className="col-md">
               <div className="card bg-white">
