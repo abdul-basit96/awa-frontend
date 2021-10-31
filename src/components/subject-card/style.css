@@ -1,0 +1,25 @@
+#outline:hover {
+  background-color: rgb(33, 7, 66);
+  cursor: pointer;
+}
+#outline:hover a {
+  color: white;
+}
+#outline a {
+  color: black;
+}
+
+.card-body {
+  box-shadow: 0 0 25px 0 rgb(29 25 0 / 25%);
+  border-radius: 4px;
+  overflow: hidden;
+}
+#btn1 {
+  background-color: rgb(33, 7, 66);
+}
+.card-border-top {
+  border-top: 1px solid grey;
+}
+.card-border-right {
+  border-right: 1px solid grey;
+}
