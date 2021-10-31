@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Button, Col, Container, Row } from "react-bootstrap";
 import Carousel from "react-bootstrap/Carousel";
-import { scryRenderedComponentsWithType } from "react-dom/cjs/react-dom-test-utils.production.min";
+
 import "./style.css";
 
 const CarouselTop = (props) => {
