@@ -1,5 +1,5 @@
 #outline:hover {
-  background-color: rgb(33, 7, 66);
+  background-color: #175b97;
   cursor: pointer;
 }
 #outline:hover a {
@@ -15,7 +15,7 @@
   overflow: hidden;
 }
 #btn1 {
-  background-color: rgb(33, 7, 66);
+  background-color: #175b97;
 }
 .card-border-top {
   border-top: 1px solid grey;
