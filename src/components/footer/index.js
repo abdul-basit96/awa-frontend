@@ -47,18 +47,11 @@ const Footer = () => {
               <div className="row">
                 <div className="col-lg-5 py-5">
                   <h5>You can also find us on</h5>
-                  <span className="me-3">
-                    <i className="fab fa-facebook"></i>
-                  </span>
-                  <span className="me-3">
-                    <i className="fab fa-instagram"></i>
-                  </span>
-                  <span className="me-3">
-                    <i className="fab fa-twitter"></i>
-                  </span>
-                  <span className="me-3">
-                    <i className="fab fa-google-plus"></i>
-                  </span>
+                  {icons.map((item, index) => (
+                    <span key={index} className="me-3">
+                      <i className={item}></i>
+                    </span>
+                  ))}
                 </div>
               </div>
             </div>

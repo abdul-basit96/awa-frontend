@@ -18,7 +18,7 @@ const index = (props) => {
 
         <Card.Body>
           <Card.Title className="text-center">
-            <h3 className="fw-bolder fs-2 mt-0 pt-0 ">{props?.heading}</h3>
+            <h3 className="fw-bolder fs-3 mt-0 pt-0 ">{props?.heading}</h3>
           </Card.Title>
           <Card.Text
             className="fw-bold text-secondary"
