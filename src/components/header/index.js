@@ -1,8 +1,8 @@
 import React from "react";
 import "./style.css";
-const index = () => {
+const Header = () => {
   return (
-    <nav className="navbar navbar-expand-lg">
+    <nav className="navbar navbar-expand-lg mb-5 border border-bottom-1">
       <div className="container pt-2">
         <img
           src="/images/Arabic-Wave-Logo.png"
@@ -52,4 +52,4 @@ const index = () => {
   );
 };
 
-export default index;
+export default Header;

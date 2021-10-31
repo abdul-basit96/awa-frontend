@@ -16,7 +16,7 @@ const CarouselTop = (props) => {
     <Container>
       <Row>
         <Col lg={12} md={12} sm={12}>
-          <Carousel fade className="carousel">
+          <Carousel fade className="carousel mb-5">
             {/*First Item */}
             <Carousel.Item interval={5000}>
               <img
@@ -84,7 +84,6 @@ const CarouselTop = (props) => {
                     />
                   </Col>
                 </Row>
-
                 <br />
                 <br />
                 <Button
