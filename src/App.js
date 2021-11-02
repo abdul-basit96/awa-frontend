@@ -6,9 +6,14 @@ import TeachingQuran from "./components/teachingQuran";
 import Testimonial from "./components/testimonial";
 import SubjectCard from "./components/subject-card";
 import Facilities from "./components/facilities";
+import TopDiv from "./components/top-divs";
 
 function App() {
-  return <div className="App"></div>;
+  return (
+    <div className="App">
+      <TopDiv />
+    </div>
+  );
 }
 
 export default App;
