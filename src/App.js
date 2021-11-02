@@ -8,17 +8,7 @@ import SubjectCard from "./components/subject-card";
 import Facilities from "./components/facilities";
 
 function App() {
-  return (
-    <div className="App">
-      <Header />
-      <CarouselTop />
-      <SubjectCard />
-      <Facilities />
-      <Testimonial />
-      <TeachingQuran />
-      <Footer />
-    </div>
-  );
+  return <div className="App"></div>;
 }
 
 export default App;
