@@ -1,0 +1,62 @@
+.curriculum__heading {
+  text-align: center;
+}
+
+.curriculum__tabs-container {
+  font-size: 16px;
+  -webkit-text-size-adjust: 100%;
+  font-family: FuturaPT, sans-serif;
+  color: #191919;
+  letter-spacing: 0.0125rem;
+  -webkit-font-smoothing: antialiased;
+  padding: 0;
+  appearance: none;
+  font-weight: 400;
+  outline: none;
+  background: #fff;
+  box-shadow: 0 17px 39px rgba(0, 0, 0, 0.05);
+  display: flex;
+  width: fit-content;
+  margin: 3rem auto;
+  opacity: 1;
+  animation-name: a;
+  animation-iteration-count: 1;
+  animation-timing-function: ease-in-out;
+  animation-duration: 1s;
+}
+.curriculum__tabs h2 {
+  margin-top: 3rem;
+  padding: 0;
+}
+.curriculum__tabs-container .tab {
+  position: relative;
+  padding: 14px 40px;
+  text-align: center;
+  cursor: pointer;
+  transition: all 0.2s linear;
+}
+.curriculum__tabs_sub-tabs,
+.curriculum__tabs h2 {
+  margin-top: 3rem;
+  padding: 0;
+}
+.curriculum__tabs-content .plan_cont .plan {
+  max-width: 21rem;
+  min-width: 21rem;
+  min-height: 747px;
+  z-index: 2;
+  background: #fff;
+  box-shadow: 0 17px 39px rgba(0, 0, 0, 0.05);
+  transition: transform 0.3s ease;
+  transform: scale(1);
+}
+.curriculum__tabs-content {
+  padding-bottom: 2rem;
+}
+.curriculum__tabs-content .plan_cont .plan .heading {
+  height: 124px;
+  background: #fff4e8;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}

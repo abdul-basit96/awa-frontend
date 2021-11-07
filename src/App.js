@@ -7,11 +7,13 @@ import Testimonial from "./components/testimonial";
 import SubjectCard from "./components/subject-card";
 import Facilities from "./components/facilities";
 import TopDiv from "./components/top-divs";
+import CurriculumPrice from "./components/curriculum_and_pricing";
+import Cards from "./components/cards";
 
 function App() {
   return (
     <div className="App">
-      <TopDiv />
+      <CurriculumPrice />
     </div>
   );
 }
