@@ -1,0 +1,23 @@
+@import url("//db.onlinewebfonts.com/c/7c9d8cabea7f4697dde2e98c001c5f2d?family=Futura+PT+Light");
+body {
+  font-size: 16px;
+  letter-spacing: 0.0125rem;
+  -webkit-font-smoothing: antialiased;
+  padding: 0;
+  margin: 0;
+  appearance: none;
+  font-weight: 400;
+  outline: none;
+  -webkit-text-size-adjust: 100%;
+  overflow-x: hidden;
+  height: 100vh;
+  font-family: FuturaPT, sans-serif;
+  color: #191919;
+  scroll-behavior: smooth;
+}
+
+body,
+html {
+  scroll-behavior: smooth;
+  font-family: FuturaPT, sans-serif;
+}
