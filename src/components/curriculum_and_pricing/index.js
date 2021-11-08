@@ -22,7 +22,7 @@ const CurriculumPrice = () => {
         ))}
       </div>
       <div
-        className="plan_cont d-flex justify-content-around p-5"
+        className="plan_cont d-flex justify-content-between"
         data-pricing-plan-type="one_time"
       >
         {tabs.map((item, ind) => ind <= 2 && <Cards />)}

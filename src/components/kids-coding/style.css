@@ -1,4 +1,4 @@
-.global-icon {
+.global--icon {
   background: url(https://s3-cdnwhjr.whjr.online/website/desktop/spritesheet/Spritesheet.svg)
     no-repeat;
   background-size: 2144px 1208px;
@@ -24,7 +24,7 @@
   border-left: 3px solid #fe8d1b;
   text-align: left;
 }
-p {
+.para {
   justify-content: space-evenly;
   text-align: left;
   font-family: sans-serif;

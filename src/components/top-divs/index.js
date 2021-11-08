@@ -88,7 +88,7 @@ const TopDiv = (props) => {
           </div>
         </div>
       </div>
-      <section className="container is-visible-viewport">
+      <section className="container container-top is-visible-viewport">
         <div className="teachercam-section">
           <div className="teachercam-image">
             <button

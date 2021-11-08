@@ -36,8 +36,8 @@ const JrCarousel = () => {
             <div className="navigation-btn-inside"></div>
         </div> 
 
-        <button className="global-icon navigation-btn-left"></button>
-        <button className="global-icon navigation-btn-right"></button>
+        <button className="global-arrow-icon navigation-btn-left"></button>
+        <button className="global-arrow-icon navigation-btn-right"></button>
     </div>
         </>
     )

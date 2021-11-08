@@ -1,4 +1,4 @@
-.bg-img {
+.background-image {
   height: 38rem;
   background-image: url(./img1.jpg);
   background-repeat: no-repeat;
@@ -18,18 +18,18 @@
   margin-left: 75%;
   border: 1px solid white;
 }
-.play {
+.btn-play {
   font-size: 2.7rem;
   color: #fe8d1b;
 }
-.btn0 {
+.btn-free-book {
   margin-top: 50px;
   background-color: #fe8d1b;
   border-radius: 0%;
   box-shadow: none;
   border: none;
 }
-.btn1 {
+.btn-play-fill {
   background: none;
   box-shadow: none;
   border: none;

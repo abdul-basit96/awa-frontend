@@ -1,4 +1,4 @@
-.container {
+.container-top {
   padding-right: 15px;
   padding-left: 1px;
   margin-right: auto;
@@ -352,7 +352,7 @@ img {
   .teachercam-section {
     height: 335px;
   }
-  .container {
+  .container-top {
     width: 1140px;
   }
 }

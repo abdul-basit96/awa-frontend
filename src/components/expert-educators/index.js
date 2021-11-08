@@ -9,7 +9,7 @@ const ExpertEducators = () => {
                 <br />
                 <div className="row">
                     <div className="col-md-5 section-img">
-                        <img src='https://s3-cdnwhjr.whjr.online/website/desktop/teacher-process-2x.png' />
+                        <img className="educator-image" src='https://s3-cdnwhjr.whjr.online/website/desktop/teacher-process-2x.png' />
                     </div>
                     <div className="col-md-7">
                         <h4>Top 1% teachers selected by an industry-leading 4-step teacher assessment process by top 1% of early childhood coding experts</h4>
@@ -22,7 +22,7 @@ const ExpertEducators = () => {
                                     <span>View Live Comment</span>
                                 </button>
                             </a>
-                            <button class="btn0 btn-lg text-light text-align-center">
+                            <button class="btn-book btn-lg text-light text-align-center">
                                 <i class="far fa-calendar-alt ms-3"></i>
                                 <span class="fw-bold m-3">Book a FREE Trial</span>
                             </button>
@@ -30,10 +30,10 @@ const ExpertEducators = () => {
 
                         <div className="stars-content-wrapper">
                             <div className="stars-wrapper">
-                                <span className="global-icon star"></span>
-                                <span className="global-icon star"></span>
-                                <span className="global-icon star"></span>
-                                <span className="global-icon star"></span>
+                                <span className="global-star-icon star"></span>
+                                <span className="global-star-icon star"></span>
+                                <span className="global-star-icon star"></span>
+                                <span className="global-star-icon star"></span>
                             </div>
                             <div className="rating-content">
                                 <cpan className="font16">

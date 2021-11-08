@@ -1,19 +1,31 @@
 import "./App.css";
-import CarouselTop from "./components/carousel";
-import Header from "./components/header";
-import Footer from "./components/footer";
-import TeachingQuran from "./components/teachingQuran";
-import Testimonial from "./components/testimonial";
-import SubjectCard from "./components/subject-card";
-import Facilities from "./components/facilities";
-import TopDiv from "./components/top-divs";
 import CurriculumPrice from "./components/curriculum_and_pricing";
-import Cards from "./components/cards";
+import KidsCoding from "./components/kids-coding";
+import ChildLearn from "./components/child-learn-section";
+import SairaVideo from "./components/saira-video-section";
+import JrCarousel from "./components/JrCarousel";
+import ExpertEducators from "./components/expert-educators";
+import TopDiv from './components/top-divs';
 
 function App() {
   return (
     <div className="App">
+      <TopDiv />
+      <br />
+      <KidsCoding />
+      <br/>
+      <ChildLearn />
+      <br/>
+      <br/>
+      <JrCarousel/>
+      <br/>
+      <br/>
+      <SairaVideo />
+      <br/>
+      <br/>
       <CurriculumPrice />
+      <br/>
+      <ExpertEducators />
     </div>
   );
 }
