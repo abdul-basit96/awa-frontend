@@ -1,0 +1,115 @@
+.content-title{
+    font-size: 1.5rem;
+    line-height: 48px;
+}
+
+.content-sub-title{
+    font-size: 1.2rem;
+    line-height: 32px;
+    padding-bottom: 11.2px;
+}
+h4{
+    font-size: 1.5rem;
+    line-height: 2rem;
+}
+.color-5A7184{
+    color: #5a7184;
+}
+
+p h2 h4{
+    font-family: FuturaPTBold,sans-serif;
+}
+
+.img-wrap{
+    width: 380px;
+    position: relative;
+    padding-bottom: 125%;
+    margin: auto
+}
+
+.img-responsive-aaron{
+    max-width: 100%;
+}
+
+.david-badge{
+    width: 82px;
+    margin-right: 35px;
+}
+
+.awards-wrap{
+    position: absolute;
+    display: flex;
+    width: 100%;
+    margin-top: 50px;
+}
+
+.image-section{
+    width: 50%;
+    background-color: aqua;
+    background: url('https://www.whitehatjr.com/whjr-champions-desktop/superstar-bg.png') no-repeat;
+    height: 426px;
+    position: relative;
+    background-size: contain;
+}
+
+h2{
+    text-align: center;
+}
+
+.card-img{
+    width: 100%;
+}
+
+.global-icon {
+    background: url(https://s3-cdnwhjr.whjr.online/website/desktop/spritesheet/Spritesheet.svg) no-repeat;
+    background-size: 2144px 1208px;
+}
+
+
+.navigation-btn{
+    position: absolute;
+    left: 50%;
+    display: flex;
+    margin-top: 20px;
+    width: 100px;
+    justify-content: space-between;
+}
+
+.navigation-btn-inside{
+    background-color: #c4c4c4;
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.navigation-btn-inside.active{
+    background-color: #ff8d18;
+}
+.navigation-btn-left{
+    position: absolute;
+    top: 50%;
+    background-position: -990px -273px;
+    background-color: #fff;
+    width: 12px;
+    height: 18px;
+    padding: 24px;
+    border-radius: 50%;
+    border: 1px solid #c4c4c4;
+    cursor: pointer;
+}
+
+.navigation-btn-right{
+    position: absolute;
+    top: 50%;
+    background-position: -990px -273px;
+    background-color: #fff;
+    width: 12px;
+    height: 18px;
+    padding: 24px;
+    border-radius: 50%;
+    border: 1px solid #c4c4c4;
+    cursor: pointer;
+    left: 90%;
+    transform: rotate(180deg);
+}
