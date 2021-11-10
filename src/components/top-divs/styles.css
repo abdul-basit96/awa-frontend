@@ -1,0 +1,358 @@
+.container-top {
+  padding-right: 15px;
+  padding-left: 1px;
+  margin-right: auto;
+  margin-left: auto;
+}
+*,
+::after,
+::before {
+  box-sizing: border-box;
+}
+h1 {
+  font-size: 3rem;
+  line-height: 3.5625rem;
+}
+h1,
+h2,
+h3 {
+  font-family: FuturaPTBold, sans-serif;
+}
+.curriculum__tabs-content .plan_cont .plan .plan_desc .content,
+.font18 {
+  font-size: 1.125rem;
+}
+.curriculum__tabs-content .plan_cont .plan .plan_desc .content,
+.font18 {
+  line-height: 1.4375rem;
+}
+section > * {
+  opacity: 0;
+  transform: translateY(50 px);
+  transition: all 0.5s;
+}
+div {
+  display: block;
+}
+
+.btn.btn-primary {
+  display: flex;
+}
+.book_math_trial_btn,
+.book_trial_btn {
+  position: relative;
+  overflow: hidden;
+  width: 17rem;
+  height: 51px;
+  font-family: FuturaPTBold, sans-serif;
+  justify-content: center;
+  border: none;
+  padding: 5px 12px;
+}
+.btn {
+  height: 45px;
+  box-sizing: border-box;
+  font-style: normal;
+  background: transparent;
+  font-family: FuturaPT, sans-serif;
+  cursor: pointer;
+  font-size: 1.125rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.btn-primary {
+  border: 1px solid #fe8d1b;
+  background: #fe8d1b;
+}
+.book_math_trial_btn svg,
+.book_trial_btn svg {
+  margin-right: 8px;
+}
+.color-fff {
+  color: #fff;
+}
+.hero-section {
+  font-size: 16px;
+  -webkit-text-size-adjust: 100%;
+  font-family: FuturaPT, sans-serif;
+  color: #191919;
+  letter-spacing: 0.0125rem;
+  -webkit-font-smoothing: antialiased;
+  padding: 0;
+  margin: 0;
+  appearance: none;
+  font-weight: 400;
+  outline: none;
+  margin-bottom: 75px;
+}
+
+.home-banner-container {
+  font-size: 16px;
+  -webkit-text-size-adjust: 100%;
+  font-family: FuturaPT, sans-serif;
+  color: #191919;
+  letter-spacing: 0.0125rem;
+  -webkit-font-smoothing: antialiased;
+  appearance: none;
+  font-weight: 400;
+  outline: none;
+  margin: 0 auto;
+  padding: 0 15px;
+  max-width: 1450px;
+  width: 1450px;
+  position: relative;
+  z-index: 1;
+}
+.banner-contents {
+  font-size: 16px;
+  -webkit-text-size-adjust: 100%;
+  font-family: FuturaPT, sans-serif;
+  color: #191919;
+  letter-spacing: 0.0125rem;
+  -webkit-font-smoothing: antialiased;
+  margin: 0;
+  appearance: none;
+  font-weight: 400;
+  outline: none;
+  padding: 100px 0;
+}
+.banner-contents > h1 {
+  margin-bottom: 20px;
+}
+
+.home-banner-container {
+  font-size: 16px;
+  -webkit-text-size-adjust: 100%;
+  font-family: FuturaPT, sans-serif;
+  color: #191919;
+  letter-spacing: 0.0125rem;
+  -webkit-font-smoothing: antialiased;
+  appearance: none;
+  font-weight: 400;
+  outline: none;
+  margin: 0 auto;
+  padding: 0 15px;
+  max-width: 1450px;
+  width: 1450px;
+  position: relative;
+  z-index: 1;
+}
+section.is-visible-viewport > * {
+  -webkit-text-size-adjust: 100%;
+  color: #191919;
+  letter-spacing: 0.0125rem;
+  -webkit-font-smoothing: antialiased;
+  padding: 0;
+  margin: 0;
+  appearance: none;
+  font-weight: 400;
+  outline: none;
+  font-family: FuturaPTBold, sans-serif;
+  font-size: 3rem;
+  line-height: 3.5625rem;
+  transition: all 0.5s;
+  margin-bottom: 20px;
+  transform: translateY(0);
+  opacity: 1;
+}
+.home-banner-container p {
+  font-size: 20px;
+  line-height: 30px;
+}
+.hero-banner-form {
+  position: relative;
+  margin-top: 10px;
+  padding: 12px 20px 12px 0;
+  display: inline-block;
+  z-index: 1;
+  width: 36%;
+}
+.hero-banner-trial-button {
+  display: flex;
+  align-items: flex-end;
+}
+
+a,
+a:active a:focus {
+  color: #fe8d1b;
+  text-decoration: none;
+}
+
+.btn.btn-primary {
+  display: flex;
+  background: #fe8d1b;
+  border: none;
+}
+.btn.btn-primary:hover,
+.btn.btn-primary:active {
+  display: flex;
+  background: #fe8d1b;
+  border: none;
+}
+.hero-banner-trial-button .spot {
+  margin: 0 0 0 15px;
+}
+.curriculum__tabs-content .plan_cont .plan .plan_desc .content,
+.font18 {
+  font-size: 1.125rem;
+  line-height: 1.4375rem;
+}
+.color-5A7184,
+.curriculum__tabs-content .plan_cont .plan .plan_desc .content,
+.curriculum_btn,
+.onclick-menu-content li button {
+  color: #5a7184;
+}
+form {
+  display: block;
+  margin-top: 0em;
+}
+.nav-item {
+  color: none;
+  text-decoration: none;
+}
+
+.hero-kid-image-postion {
+  position: absolute;
+  z-index: 0;
+  width: 59%;
+  right: 7%;
+  top: 0;
+  bottom: -3%;
+  z-index: -1;
+}
+.hero-kidimage-wrapper {
+  position: relative;
+  padding-bottom: 59.6%;
+}
+.hideoverflow-image {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+}
+.card-image {
+  width: 100%;
+}
+img {
+  vertical-align: center;
+  display: block;
+}
+.card-image > img {
+  vertical-align: middle;
+  display: block;
+  margin: auto;
+}
+.home-banner-image {
+  position: absolute;
+  top: 0;
+  z-index: 0;
+}
+.hero-illustration-bg {
+  width: 100%;
+}
+.teacher-frame {
+  position: absolute;
+  right: 4%;
+  top: 52%;
+}
+.teachercam-section {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  z-index: 3;
+  background: #fff;
+  box-shadow: 0 17px 39px rgb(0 0 0 / 5%);
+}
+.live-coding-frame {
+  position: absolute;
+  top: 13%;
+  right: 15%;
+}
+.live-app-frame-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.live-coding-frame img {
+  width: 100%;
+}
+
+.live-app-frame {
+  position: absolute;
+  bottom: 1%;
+  z-index: 5;
+}
+.teachercam-image {
+  background: url(https://s3-cdnwhjr.whjr.online/website/home/android-section.png)
+    no-repeat;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-size: cover;
+  position: relative;
+}
+.teachercam-image .play-button {
+  position: absolute;
+  background-color: #fff;
+  border: 0 solid #ffdfe7;
+  border-radius: 9999px;
+  cursor: pointer;
+  transition: border-width 0.3s ease;
+}
+
+.teachercam-contents {
+  padding: 24px 40px 21px;
+}
+.teachercam-contents h2 {
+  line-height: 2.5rem;
+  letter-spacing: 0.2px;
+  padding: 0;
+  margin-bottom: 16px;
+  font-size: 2.1rem;
+}
+.teachercam-contents p {
+  margin-bottom: 16px;
+  line-height: 21px;
+}
+.teachercam-contents h3 {
+  margin-bottom: 25px;
+  line-height: 23px;
+  font-size: 1rem;
+}
+.book_math_trial_btn svg,
+.book_trial_btn svg {
+  margin-right: 8px;
+}
+
+.teachercam-image .play-button {
+  position: absolute;
+  background-color: #fff;
+  border: 0 solid #ffdfe7;
+  border-radius: 9999px;
+  cursor: pointer;
+  transition: "border-width 0.3s ease";
+}
+.teachercam-image .play-button:hover {
+  border: 2px solid #ffdfe7;
+}
+@media only screen and (max-width: 120rem) {
+  .home-banner-image img {
+    margin: 8% -6% 0;
+  }
+}
+@media only screen and (min-width: 92.5625rem) {
+  .hero-kid-image-postion {
+    width: 55%;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  .teachercam-section {
+    height: 335px;
+  }
+  .container-top {
+    width: 1140px;
+  }
+}
