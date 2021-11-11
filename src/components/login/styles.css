@@ -1,0 +1,52 @@
+.main-container {
+  background: rgb(229, 236, 166);
+  margin: auto;
+  height: 100%;
+  min-height: 100vh;
+  width: 100%;
+}
+.AcTMZ {
+  font-family: Muli-Regular;
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  height: 100%;
+  -webkit-box-flex: 1;
+  flex-grow: 1;
+  overflow: auto;
+}
+.wrapper {
+  align-items: center;
+}
+.header {
+  font-family: Muli-Bold;
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+.desc {
+  font-family: Muli-Regular;
+  font-size: 1.125em;
+}
+.desc-img {
+  margin-right: 5%;
+  vertical-align: middle;
+}
+.form-container {
+  background: rgb(255, 255, 255);
+  border-radius: 15px;
+  box-shadow: rgb(200 200 200 / 63%) 2px 2px 7px 2px;
+  padding: 30px 5%;
+}
+.title {
+  color: #707070;
+  font-size: 1.25rem;
+  text-align: center;
+  font-family: Muli-Bold;
+  font-weight: bold;
+}
+.jss32 {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
