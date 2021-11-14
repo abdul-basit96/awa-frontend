@@ -4,6 +4,11 @@
   margin-right: auto;
   margin-left: auto;
 }
+.top-left-slider {
+  height: 500px;
+  vertical-align: middle;
+  margin-top: auto;
+}
 *,
 ::after,
 ::before {

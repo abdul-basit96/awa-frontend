@@ -1,11 +1,15 @@
 import React, { Component, useState, useEffect } from "react";
+import MySlider from "../common/slider";
 import "./styles.css";
 
 const TopDiv = (props) => {
   return (
     <>
       <div className="home-banner-container">
-        <section className="banner-contents is-visible-viewport">
+        {/* <section className="banner-contents is-visible-viewport w-50"> */}
+        <div className="w-50 mt-5 top-left-slider ">
+          <MySlider />
+          {/* 
           <h1 className="color-191919">
             Live 1:1 Online Coding Classes
             <br />
@@ -41,8 +45,10 @@ const TopDiv = (props) => {
                 Limited Spots Left!
               </span>
             </div>
-          </form>
-        </section>
+          </form> */}
+          {/* </section> */}
+        </div>
+        {/*-------------------------------------------------------------------------------- */}
         <section className="hero-kid-image-postion is-visible-viewport">
           <div className="hero-kidimage-wrapper">
             <div className="hideoverflow-image">
@@ -55,14 +61,14 @@ const TopDiv = (props) => {
             </div>
           </div>
         </section>
-        <div className="home-banner-image">
+        {/* <div className="home-banner-image">
           <img
             src="https://s3-cdnwhjr.whjr.online/website/desktop/home-section/hero-bg.svg"
             alt=""
             className="hero-illustration-bg"
             loading="lazy"
           />
-        </div>
+        </div> */}
         <div className="teacher-frame">
           <img
             srcset="https://s3-cdnwhjr.whjr.online/website/desktop/home-section/hero-teacher-1x.png 1x, /desktop-home/teacher-frame-2x.png 2x"
