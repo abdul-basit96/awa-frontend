@@ -1,0 +1,97 @@
+.main-container {
+  background: rgb(229, 236, 166);
+  margin: auto;
+  height: 100%;
+  min-height: 100vh;
+  width: 100%;
+}
+.AcTMZ {
+  font-family: Muli-Regular;
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  height: 100%;
+  -webkit-box-flex: 1;
+  flex-grow: 1;
+  overflow: auto;
+}
+.wrapper {
+  align-items: center;
+}
+.header {
+  font-family: Muli-Bold;
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+.desc {
+  font-family: Muli-Regular;
+  font-size: 1.125em;
+}
+.desc-img {
+  margin-right: 5%;
+  vertical-align: middle;
+}
+.form-container {
+  background: rgb(255, 255, 255);
+  border-radius: 15px;
+  box-shadow: rgb(200 200 200 / 63%) 2px 2px 7px 2px;
+  padding: 30px 5%;
+}
+.title {
+  color: #707070;
+  font-size: 1.25rem;
+  text-align: center;
+  font-family: Muli-Bold;
+  font-weight: bold;
+}
+.jss32 {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+.jss50 {
+  font-size: 12px;
+}
+.grade-btn {
+  margin: 7px;
+  border-radius: 5px;
+  height: 40px;
+  width: fit-content;
+  background-color: inherit;
+  cursor: pointer;
+  border: 1px solid grey;
+}
+
+.jss83 {
+  width: 100%;
+  display: flex;
+  padding-right: 0px;
+  flex-direction: row;
+}
+.jss55 {
+  border: 1px solid grey;
+  padding-right: 10px;
+  padding-left: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-radius: 5px;
+}
+.jss56:hover {
+  color: #fe8d1b;
+}
+.jss57 {
+  color: rgb(0, 127, 154);
+  background-color: rgb(245, 245, 245);
+  text-align: center;
+  padding: 9px 0px;
+  margin: 10px 0px 15px;
+  border-radius: 5px;
+}
+.jss57:hover {
+  color: #fe8d1b;
+}
+.jss58 {
+  margin-top: 50px;
+  justify-content: center;
+}
