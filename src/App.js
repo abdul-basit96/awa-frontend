@@ -6,10 +6,12 @@ import SairaVideo from "./components/saira-video-section";
 import JrCarousel from "./components/JrCarousel";
 import ExpertEducators from "./components/expert-educators";
 import TopDiv from './components/top-divs';
+import Header from "./components/header";
 
 function App() {
   return (
     <div className="App">
+      <Header />
       <TopDiv />
       <br />
       <KidsCoding />
