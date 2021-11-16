@@ -1,0 +1,116 @@
+/* * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  } */
+  .bd{
+    font-family: 'Estonia', cursive;
+    font-size: 1.125rem;
+  }
+  .navbar-brand {
+    box-shadow: 0 0 2px 0 rgb(10, 10, 10);
+  }
+  .navbar-brand img {
+    width: 230px;
+  }
+  .dropdown {
+    color: gray;
+    border: none;
+    border-radius: 0px;
+  }
+  .dropdown:hover,
+  .dropdown:hover .dropdown-menu {
+    display: block;
+    border: none;
+    color: black;
+    border-radius: 0px;
+    margin: 0px;
+    padding: 0px;
+  }
+  .dropdown-menu {
+    padding: 0%;
+    margin: 0%;
+    border: none;
+  }
+  
+  .img-responsive {
+    max-width: 100%;
+  }
+  .nav-shadow {
+    box-shadow: 0 1px 1px 0 rgb(10, 10, 10);
+  }
+  .nav-link {
+    color: black;
+  }
+  .nav-link:hover {
+    color: black;
+  }
+  .btn1 {
+    border-radius: 0;
+    width: auto;
+    height: 48px;
+    border: 2px solid #fe8d1b;
+    background: #fff;
+    text-align: center;
+    justify-content: center;
+  
+    color: #fe8d1b;
+  }
+  .join-text .sub-class {
+    margin-top: 5px;
+    display: block;
+    font-size: 12px;
+    font-family: 'Mochiy Pop P One', sans-serif;
+  }
+  
+  .glowbt {
+    border: none;
+    width: auto;
+    height: 48px;
+    text-align: center;
+    justify-content: center;
+    color: #fff;
+    animation: f 53s linear infinite;
+    background: linear-gradient(
+        121.19deg,
+        rgba(133, 239, 49, 0) 25.73%,
+        hsla(0, 0%, 100%, 0.3) 45.27%,
+        rgba(133, 239, 49, 0) 62.27%
+      ),
+      #ff8d1a;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+    animation-name: gradients;
+  }
+  .dropli {
+    color: gray;
+    border: none;
+    border-radius: 0px;
+  }
+  .dropli:hover,
+  .dropli:hover .dropli-men {
+    display: block;
+    border: none;
+    color: black;
+    border-radius: 0px;
+    margin: 0px;
+    padding: 0px;
+  }
+  .dropli-men {
+    padding: 0%;
+    margin: 0%;
+    border: none;
+  }
+  .sd {
+    display: none;
+  }
+  .hv:hover .sd {
+    display: inline-block;
+    list-style-type: none;
+  }
+  .sd:hover{
+    color:#fe8d1b;
+  }
+  .dropdown-item:hover{
+    color:#fe8d1b;
+  }
