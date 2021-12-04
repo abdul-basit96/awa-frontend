@@ -1,0 +1,62 @@
+.contact h5 {
+      font-weight: 700!important;
+      font-size: 16px!important;
+}
+
+.contact p {
+  font-weight: 500!important;
+  font-size: 13px!important;
+}
+
+.top-righ-head{
+  margin-top: 20px;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  .bd{
+    font-family: hind,Arial,Helvetica,sans-serif;
+    font-size: 1.125rem;
+  }
+  .navbar-brand img {
+    max-width: 200px;
+  }
+  /* .vl{
+      border-left: 1px solid rgb(121, 119, 119);
+      height: 20px;  
+  } */
+  
+  /* .dropli:hover,
+.dropli:hover .dropli-men {
+  display: block;
+  border: none;
+  color: black;
+  border-radius: 0px;
+  margin: 0px;
+  padding: 0px;
+}
+.dropli-men {
+  padding: 0%;
+  margin: 0%;
+  border: none;
+} */
+.tophead{
+    background-color: #6dbb0f;
+    /* border-bottom-style: solid; */
+
+}
+.icons{
+    color:white;
+}
+.contact{
+    color:white;
+}
+  
+.abc{
+    height: 100px;
+    width: 200px;
+}
+
