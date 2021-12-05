@@ -32,21 +32,57 @@ const Header = () => {
           <span className="navbar-toggler-icon"></span>
         </button>
         <div className="collapse navbar-collapse ms-5" id="navbarSupportedContent">
-          <ul className="navbar-nav me-auto  mb-2 mb-lg-0">
+          <ul className="main-dd navbar-nav me-auto  mb-2 mb-lg-0">
           <li className="nav-item vl">
-              <a className="nav-link nav-link bd" style={{color: "black"}} href="#">
+              <a className="nav-link nav-link bd" href="#">
                 Home
               </a>
             </li>
-            <li className="nav-item d-flex">
-              <a className="nav-link bd" style={{color: "black"}} href="#">
-                About Us
-              </a>
-            </li>
-            <li className="bd vl">
-              <a
+            <li className="aboutus-dd bd vl">
+              <span
                 className="nav-shadow nav-link dropdown-toggle"
-                style={{color: "black"}}
+                href="#"
+                id="navbarDropdown"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                ABOUT US
+              </span>
+              <ul
+                className="drop-dd dropdown-menu m-0 p-0 shadow-md "
+                aria-labelledby="navbarDropdown"
+              >
+                <li>
+                  <a className="dropdown-item" href="#">
+                    About Us
+                  </a>
+                </li>
+                <li>
+                  <a className="dropdown-item" href="#">
+                    FAQs
+                  </a>
+                </li>
+                <li>
+                  <a className="dropdown-item" href="#">
+                    Terms of Service
+                  </a>
+                </li>
+                <li>
+                  <a className="dropdown-item" href="#">
+                    Refund Policy
+                  </a>
+                </li>
+                <li>
+                  <a className="dropdown-item" href="#">
+                    Privacy Policy
+                  </a>
+                </li>
+              </ul>
+            </li>
+            <li className="aboutus-dd bd vl">
+              <span
+                className="nav-shadow nav-link dropdown-toggle"
                 href="#"
                 id="navbarDropdown"
                 role="button"
@@ -54,9 +90,9 @@ const Header = () => {
                 aria-expanded="false"
               >
                 Courses
-              </a>
+              </span>
               <ul
-                className="dropdown-menu m-0 p-0 shadow-md "
+                className="drop-dd dropdown-menu m-0 p-0 shadow-md "
                 aria-labelledby="navbarDropdown"
               >
                 <li>
@@ -73,10 +109,10 @@ const Header = () => {
                   <a className="dropdown-item" href="#">
                     Learn Arabic
                   </a>
-                  <ul>
+                  {/* <ul>
                     <li className="sd">Spoken Arabic</li>
                     <li className="sd">Arabic Grammer</li>
-                  </ul>
+                  </ul> */}
                 </li>
                 <li>
                   <a className="dropdown-item" href="#">
@@ -91,30 +127,63 @@ const Header = () => {
               </ul>
             </li>
             <li className="nav-item vl">
-              <a className="nav-link bd" style={{color: "black"}} href="#">
-                FEE & PLANS
+              <a className="nav-link bd" href="#">
+                FEE&PLANS
               </a>
             </li>
+            <li className="aboutus-dd bd vl">
+              <span
+                className="nav-shadow nav-link dropdown-toggle"
+                href="#"
+                id="navbarDropdown"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                TEACHERS
+              </span>
+              <ul
+                className="drop-dd dropdown-menu m-0 p-0 shadow-md "
+                aria-labelledby="navbarDropdown"
+              >
+                <li>
+                  <a className="dropdown-item" href="#">
+                    Online Quran Teacher
+                  </a>
+                </li>
+                <li>
+                  <a className="dropdown-item" href="#">
+                    Female Quran Teachers
+                  </a>
+                </li>
+                <li className="hv">
+                  <a className="dropdown-item" href="#">
+                    Resources
+                  </a>
+                </li>
+              </ul>
+            </li>
+           
             <li className="nav-item vl">
-              <a className="nav-link bd" style={{color: "black"}} href="#">
+              <a className="nav-link bd" href="#">
                 BLOGS
               </a>
             </li>
             <li className="nav-item vl">
-              <a className="nav-link bd" style={{color: "black"}} href="#">
+              <a className="nav-link bd" href="#">
                 TESTIMONIALS
               </a>
             </li>
             <li className="nav-item vl">
-              <a className="nav-link bd" style={{color: "black"}} href="#">
+              <a className="nav-link bd" href="#">
                 CONTACT
               </a>
             </li>
             <li>
-            <i class="fas fa-shopping-cart mt-2 ms-2" style={{fontSize:"1.5em"}}></i>
+            <i class="fas fa-shopping-cart mt-2 ms-2"></i>
             </li>
             <li>
-              <span class="price mt-3 ms-3" style={{fontSize:"1.5em"}}>$0.00</span>
+              <span class="price mt-3 ms-3">$0.00</span>
             </li>
           </ul>
         </div>

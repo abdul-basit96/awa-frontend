@@ -59,4 +59,24 @@
     height: 100px;
     width: 200px;
 }
+.drop-dd{
+  display: none;
+}
+.aboutus-dd:hover .drop-dd{
+  display: block;
 
+}
+.drop-dd >li :hover{
+  color: #6dbb0f;
+}
+/* .dd-main:hover{
+  color: rgb(56, 55, 55);
+} */
+.main-dd >li>span:hover,
+.main-dd >li>a:hover{
+  color: rgb(88, 88, 88);
+}
+.main-dd >li>span,
+.main-dd >li>a{
+  color:black;
+}
