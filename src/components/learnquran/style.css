@@ -1,0 +1,54 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.main {
+  background: url(./Quran\ host.jpg) no-repeat;
+  background-size: cover;
+  height: 100vh;
+  background-position: 50% 50%;
+  width: 100%;
+}
+.backclr {
+  background-color: rgba(0, 0, 0, 0.5);
+  height: 400px;
+}
+.main h1 {
+  font-size: 4rem;
+  font-weight: 700;
+  color: white;
+  font-family: hind, Arial, Helvetica, sans-serif;
+}
+.main p {
+  font-size: 2rem;
+  font-weight: 300;
+  color: #6dbb0f;
+}
+.main h2 {
+  font-size: 4rem;
+  font-weight: 700;
+  color: white;
+  font-family: hind, Arial, Helvetica, sans-serif;
+}
+.bt1 {
+  height: 45px;
+  width: 35%;
+  border: none;
+  outline: none;
+  background-color: #6dbb0f;
+  color: white;
+  font-weight: 700;
+}
+.bt2 {
+  height: 45px;
+  width: 35%;
+  border: 2px solid white;
+  outline: none;
+  color: #fff;
+  background-color: rgba(255, 255, 255, 0.1);
+}
+.bt1:hover,
+.bt2:hover {
+  background: chocolate;
+}
