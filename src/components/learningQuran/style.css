@@ -1,0 +1,27 @@
+.btnn2 {
+  color: #6dbb0f;
+  border: none;
+  border-bottom: 1px solid rgb(190, 189, 189);
+  background-color: transparent;
+}
+.link {
+  text-decoration: none;
+  color: #6dbb0f;
+}
+.contentbox {
+  background-color: white;
+  height: 250px;
+  border-radius: 5px;
+}
+
+.line1 {
+  border-left: 1px solid rgb(214, 214, 214);
+}
+.jss3 {
+  color: grey;
+  margin-top: 2px;
+}
+
+.link:hover {
+  color: black;
+}
