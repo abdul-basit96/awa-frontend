@@ -1,11 +1,11 @@
 import "./App.css";
 import Footer from "./components/common/footer/Footer";
+import HomePage from "./pages/home";
 
 function App() {
   return (
     <div className="App">
-      <h1>Website Underdevelopment</h1>
-      <Footer />
+      <HomePage />
     </div>
   );
 }
