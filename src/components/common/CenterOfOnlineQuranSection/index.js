@@ -5,7 +5,7 @@ import "./style.css";
 const OnlineQuranSection = () => {
   return (
     <Container>
-      <div className="myTopDiv d-flex">
+      <div className="myTopDiv d-flex mt-4">
         {/* Div for left text */}
         <div className="wpb_column vc_column_container vc_col-sm-6">
           <div className="vc_column-inner">

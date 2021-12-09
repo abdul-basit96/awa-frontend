@@ -1,7 +1,7 @@
 import React from "react";
 import "./style.css";
 
-function belowHeader() {
+const BelowHeader = () => {
   return (
     <section className="main">
       <div className="container py-5">
@@ -23,4 +23,4 @@ function belowHeader() {
   );
 }
 
-export default belowHeader;
+export default BelowHeader;
