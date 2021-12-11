@@ -1,13 +1,11 @@
 import React from "react";
-import './style.css';
+import "./style.css";
 import TopHeader from "./topheader";
 
 const Header = () => {
   return (
-          
-    
-    <div >
-    <TopHeader />
+    <div>
+      <TopHeader />
       <nav className="navbar navbar-expand-lg mt-2 mb-2">
         {/* <!-- <div className="container-fluid"> --> */}
         <div className="navbar-brand ms-4">
@@ -31,9 +29,12 @@ const Header = () => {
         >
           <span className="navbar-toggler-icon"></span>
         </button>
-        <div className="collapse navbar-collapse ms-5" id="navbarSupportedContent">
+        <div
+          className="collapse navbar-collapse ms-5"
+          id="navbarSupportedContent"
+        >
           <ul className="main-dd navbar-nav me-auto  mb-2 mb-lg-0">
-          <li className="nav-item vl">
+            <li className="nav-item vl">
               <a className="nav-link nav-link bd" href="#">
                 Home
               </a>
@@ -89,7 +90,7 @@ const Header = () => {
                 data-bs-toggle="dropdown"
                 aria-expanded="false"
               >
-                Courses
+                COURCES
               </span>
               <ul
                 className="drop-dd dropdown-menu m-0 p-0 shadow-md "
@@ -163,7 +164,7 @@ const Header = () => {
                 </li>
               </ul>
             </li>
-           
+
             <li className="nav-item vl">
               <a className="nav-link bd" href="#">
                 BLOGS
@@ -180,7 +181,7 @@ const Header = () => {
               </a>
             </li>
             <li>
-            <i class="fas fa-shopping-cart mt-2 ms-2"></i>
+              <i class="fas fa-shopping-cart mt-2 ms-2"></i>
             </li>
             <li>
               <span class="price mt-3 ms-3">$0.00</span>
