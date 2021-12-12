@@ -4,6 +4,7 @@ import Header from "../../components/header";
 import { BsChevronRight } from "react-icons/bs";
 import "./styles.css";
 import Footer from "../../components/common/footer/Footer";
+import MonthlyPackages from "../../components/monthlyPackCard";
 const FeePlan = () => {
   return (
     <div className="mb-3">
@@ -39,9 +40,7 @@ const FeePlan = () => {
       </Row>
 
       <hr />
-      <div className="d-flex justify-content-center mt-5 mb-5">
-        <h1>Cards here</h1>
-      </div>
+      <MonthlyPackages head="none" />
       <hr />
       {/* Discount and Customized Plans */}
       <Container>
