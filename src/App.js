@@ -1,6 +1,6 @@
 import "./App.css";
 import Footer from "./components/common/footer/Footer";
-import FeePlan from "./pages/feePlan";
+import Card from "./components/monthlyPackCard";
 import HomePage from "./pages/home";
 
 function App() {
