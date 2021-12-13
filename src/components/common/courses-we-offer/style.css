@@ -1,0 +1,31 @@
+.courses-offer h3{
+    font-size: 30px;
+    color: #b5651d;
+    text-align: center;
+    margin-bottom: 20px;
+    font-weight: 600;
+    line-height: 1.4;
+}
+
+.courses-offer .courses-detail {
+    width: 224.58px;
+    cursor: pointer;
+}
+
+.courses-offer .courses-detail:hover  .course-name {
+    border: 2px solid #b5651d;
+}
+
+.courses-offer .courses-detail .course-name {
+    padding: 10px 6px 12px;
+    border-top: 0!important;
+    border: 2px solid #e7e7e7;
+    transition: .3s;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.courses-offer .courses-detail img {
+    width: 224.58px;
+    height: 224.58px;
+}
