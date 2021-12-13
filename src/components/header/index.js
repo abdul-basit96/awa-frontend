@@ -1,6 +1,7 @@
 import React from "react";
 import "./style.css";
 import TopHeader from "./topheader";
+import { Link } from "react-router-dom";
 
 const Header = () => {
   return (
@@ -128,9 +129,9 @@ const Header = () => {
               </ul>
             </li>
             <li className="nav-item vl">
-              <a className="nav-link bd" href="#">
+              <Link to="/fee-for-quran-course" className="nav-link bd">
                 FEE&PLANS
-              </a>
+              </Link>
             </li>
             <li className="aboutus-dd bd vl">
               <span
