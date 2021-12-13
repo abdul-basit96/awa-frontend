@@ -3,7 +3,7 @@ import "./style.css";
 
 function FreeClass() {
   return (
-    <div className="container free-class mt-3">
+    <div className="container free-class mt-5 mb-4">
       <div className="row ">
         <div className="col-lg">
           <span className="fw-bold text-dark">Get 3 days </span>

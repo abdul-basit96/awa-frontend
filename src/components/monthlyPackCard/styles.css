@@ -1,0 +1,13 @@
+.list-group-item {
+  font-size: 17px;
+}
+.card-body .card-link {
+  padding-top: 10px;
+  padding-bottom: 12px;
+  line-height: 18px;
+}
+.card-body .card-link:hover {
+  padding-top: 10px;
+  padding-bottom: 12px;
+  line-height: 18px;
+}
