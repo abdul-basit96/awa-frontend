@@ -471,7 +471,7 @@ const Footer = () => {
       </Container>
       <Row>
         <Col lg={12} md={12} sm={12}>
-          <div className="d-flex bg-dark justify-content-center mt-">
+          <div className="d-flex bg-dark justify-content-center">
             <div className="copyright text-white pt-4 pb-4">
               Copyright © 2019 QuranHost, All rights reserved
             </div>

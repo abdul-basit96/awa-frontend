@@ -35,11 +35,11 @@ const cardProps = [
     days: 5,
   },
 ];
-const MonthlyPackages = () => {
+const MonthlyPackages = (props) => {
   return (
     <Container fluid>
       <Container className="mt-5 mb-5" style={{ padding: "0px 60px" }}>
-        <Row>
+        <Row style={{ display: props?.head ? props?.head : "block" }}>
           <Col lg={12} md={12} sm={12}>
             <div className="d-flex justify-content-center">
               <h3 className="fw-bold fs-2">Monthly Packages</h3>
@@ -48,13 +48,14 @@ const MonthlyPackages = () => {
         </Row>
         <Row>
           {cardProps?.map((item) => (
-            <Col lg={3} md={3} sm={3} className="mt-5 ">
+            <Col lg={3} md={3} sm={3} className="mt-1 ">
               <Card key={item.id} _item={item} />
             </Col>
           ))}
         </Row>
+        {/* {props?.head ? <hr /> : ""} */}
       </Container>
-      <hr />
+      {!props?.head ? <hr /> : ""}
     </Container>
   );
 };
