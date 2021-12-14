@@ -10,13 +10,13 @@ const Header = () => {
       <nav className="navbar navbar-expand-lg mt-2 mb-2">
         {/* <!-- <div className="container-fluid"> --> */}
         <div className="navbar-brand ms-4">
-          <a href="/">
+          <Link to="/">
             <img
               src="https://arabicwave.com/wp-content/uploads/2021/04/Arabic-Wave-Logo.png"
               className="m-auto img-responsive"
               alt="AWA logo"
             />
-          </a>
+          </Link>
         </div>
 
         <button
@@ -36,9 +36,9 @@ const Header = () => {
         >
           <ul className="main-dd navbar-nav me-auto  mb-2 mb-lg-0">
             <li className="nav-item vl">
-              <a className="nav-link nav-link bd" href="#">
+              <Link className="nav-link nav-link bd" to="/">
                 Home
-              </a>
+              </Link>
             </li>
             <li className="aboutus-dd bd vl">
               <span
@@ -56,9 +56,9 @@ const Header = () => {
                 aria-labelledby="navbarDropdown"
               >
                 <li>
-                  <a className="dropdown-item" href="#">
+                  <Link to="/about-us" className="dropdown-item">
                     About Us
-                  </a>
+                  </Link>
                 </li>
                 <li>
                   <a className="dropdown-item" href="#">

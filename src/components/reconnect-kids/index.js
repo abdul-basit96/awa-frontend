@@ -2,7 +2,7 @@ import React from "react";
 import { Container } from "react-bootstrap";
 import "./styles.css";
 
-function ReconnetKids() {
+function ReconnetKids(props) {
   return (
     <Container fluid>
       <div className="bgImg">
@@ -18,12 +18,18 @@ function ReconnetKids() {
               </div>
               <div className="">
                 <h4 className="info-box-content">
-                  Learn Quran Online with Egyptian Quran <br /> Teachers
+                  {props.heading
+                    ? props.heading
+                    : "Learn Quran Online with Egyptian Quran" +
+                      <br /> +
+                      "Teachers"}
                 </h4>
-                {/* <p>
-                  Start One Week Free Classes today with the Best Online Quran
-                  Tutors.
-                </p> */}
+                {props.heading && (
+                  <p>
+                    Start One Week Free Classes today with the Best Online Quran
+                    Tutors.
+                  </p>
+                )}
               </div>
             </div>
             <div className="btnkid1">
