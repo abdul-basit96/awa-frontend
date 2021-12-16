@@ -4,11 +4,11 @@ import "./index.css";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 import { BrowserRouter } from "react-router-dom";
-import AboutUs from "./pages/aboutUs";
+import NooraniQaidaCource from "./pages/cources/NooraniQaidaCource";
 
 ReactDOM.render(
   <BrowserRouter>
-    <App />
+    <NooraniQaidaCource />
   </BrowserRouter>,
   document.getElementById("root")
 );
