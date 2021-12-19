@@ -23,27 +23,13 @@
 .paragraph a:hover {
   color: black;
 }
+.content-list ul {
+  margin: 0px;
+  padding: 0px;
+  font-size: 14px;
+  font-weight: 400;
+}
 .content-list ul li {
-  position: relative;
   padding-bottom: 10px;
   color: #777;
-}
-.content-list ul li:before {
-  content: "";
-  position: absolute;
-  border-right: 2px solid black;
-  border-bottom: 2px solid black;
-  width: 8px;
-  height: 8px;
-  top: calc(50% - 4px);
-  left: -20px;
-  transform: translateY(-50%) rotate(-45deg);
-}
-#arrow {
-  border-right: 2px solid black;
-  border-bottom: 2px solid black;
-  width: 8px;
-  height: 8px;
-  transform: rotate(-45deg);
-  margin-top: 40px;
 }
