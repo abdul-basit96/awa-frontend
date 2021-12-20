@@ -20,9 +20,7 @@ function ReconnetKids(props) {
                 <h4 className="info-box-content">
                   {props.heading
                     ? props.heading
-                    : "Learn Quran Online with Egyptian Quran" +
-                      <br /> +
-                      "Teachers"}
+                    : "Learn Quran Online with Egyptian Quran Teachers"}
                 </h4>
                 {props.heading && (
                   <p>

@@ -1,14 +1,18 @@
 import React from "react";
+import { Col, Container, Row } from "react-bootstrap";
 import "./style.css";
 
 function FreeClass() {
   return (
-    <div className="container free-class mt-5 mb-4">
-      <div className="row ">
-        <div className="col-lg">
+    <Container className="free-class mt-5 mb-4 mx-auto">
+      <Row className="align-items-center ps-5">
+        <Col lg={2} md={2}>
           <span className="fw-bold text-dark">Get 3 days </span>
-          <span className="fw-bold text-dark">Free Classes</span>
+          <br />
+          <span className="fw-bold text-dark fs-4">Free Classes</span>
+        </Col>
 
+        <Col lg={9} md={9} className="text-right">
           <input type="text" placeholder="Name" className="ms-3 jss1 p-2" />
           <input type="email" placeholder="Email" className="ms-3 jss1 p-2" />
           <input
@@ -230,9 +234,9 @@ function FreeClass() {
           <button className="btnn1 ms-5 p-2">
             <span className="px-3 fw-bold"> Book Now </span>
           </button>
-        </div>
-      </div>
-    </div>
+        </Col>
+      </Row>
+    </Container>
   );
 }
 

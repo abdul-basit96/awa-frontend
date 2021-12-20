@@ -1,8 +1,9 @@
 import React, { Fragment } from "react";
-import { Col, Container, Row } from "react-bootstrap";
+import { Button, Col, Container, Row } from "react-bootstrap";
 import Header from "../../../components/header";
 import { BsChevronRight } from "react-icons/bs";
 import "./styles.css";
+import FreeClass from "../../../components/freeclass";
 
 const OnlineQuranReading = () => {
   return (
@@ -148,6 +149,41 @@ const OnlineQuranReading = () => {
             </div>
           </Col>
         </Row>
+      </Container>
+      <Container fluid>
+        <div className="background">
+          <div className="get-free-class py-1">
+            <FreeClass />
+          </div>
+        </div>
+        <div
+          className="free-trial-button"
+          style={{
+            backgroundImage:
+              "url('https://www.quranhost.com/wp-content/uploads/2019/05/read-quran-new-image-bg.jpg?id=2774')",
+          }}
+        >
+          <div className="d-flex flex-column align-items-center">
+            <div className="heading-trial">
+              <h3 className="text-center pt-5 mb-3 text-white fs-1 fw-bold">
+                Learn How to Read Quran Online with proper pronunciation
+              </h3>
+            </div>
+            <div className="heading-trial-2">
+              <h3 className="text-center text-white fs-5 fw-bold">
+                Start FREE Trials today with The Best Online Quran Teachers
+              </h3>
+            </div>
+            <div className="heading-trial-2">
+              <Button
+                variant="none"
+                className="mb-5 trial-button text-white px-4 py-2 mt-3 rounded border border-1"
+              >
+                START FREE TRAIL
+              </Button>
+            </div>
+          </div>
+        </div>
       </Container>
     </React.Fragment>
   );
