@@ -4,6 +4,9 @@ import Header from "../../../components/header";
 import { BsChevronRight } from "react-icons/bs";
 import "./styles.css";
 import FreeClass from "../../../components/freeclass";
+import LowerCources from "../../../components/lowerCources";
+import ReconnetKids from "../../../components/reconnect-kids";
+import Footer from "../../../components/common/footer/Footer";
 
 const OnlineQuranReading = () => {
   return (
@@ -185,6 +188,62 @@ const OnlineQuranReading = () => {
           </div>
         </div>
       </Container>
+      {/* How to start this course */}
+      <Container>
+        <Row className="align-items-center mt-5">
+          <Col lg={6} md={6} sm={6} className="p-5">
+            <div className="how-to-start ">
+              <h3 className="fs-5 fw-bold">How to Start This Course?</h3>
+              <div className="d-flex ">
+                <div>
+                  <BsChevronRight
+                    size={10}
+                    className="me-3 mt-2"
+                    style={{ color: "#777" }}
+                  />
+                </div>
+                <div>
+                  <p className="paragraph mt-2">
+                    Fill out the <a href="">Registration Form</a> and we will
+                    contact you for three days free trial classes. After the
+                    free trial classes, you can start regular classes to learn
+                    Reading Quran Online.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div className="quran-reading">
+              <h3 className="fw-bold fs-5">
+                Quran Reading - The Best Gift to Your Kids
+              </h3>
+              <div className="d-flex">
+                <p className="paragraph mt-2">
+                  As a Muslim, the best gift you can give your kids is to teach
+                  them How to Read the Holy Quran with Tajweed and the Quran
+                  will give them all they need.
+                </p>
+              </div>
+              <p className="paragraph mt-2">
+                Let's <a href="">Learn Quran Online</a> with our
+                <a href=""> best Online Quran Teacher</a> at home.
+              </p>
+            </div>
+          </Col>
+          <Col lg={6} md={6} sm={6} className="p-5">
+            <div>
+              <img
+                className="img-fluid shadow shadow-md shadow-primary rounded"
+                src="https://www.quranhost.com/wp-content/uploads/2019/03/learn-to-read-quran.jpg"
+                alt=""
+              />
+            </div>
+          </Col>
+        </Row>
+        {/* How to start this course */}
+      </Container>
+      <LowerCources />
+      <ReconnetKids heading="Reconnect your kids with Quran" />
+      <Footer />
     </React.Fragment>
   );
 };

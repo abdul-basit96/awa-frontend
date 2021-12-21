@@ -5,10 +5,9 @@ import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 import { BrowserRouter } from "react-router-dom";
 import OnlineQuranReading from "./pages/cources/onlineQuranReading";
-
 ReactDOM.render(
   <BrowserRouter>
-    <OnlineQuranReading />
+    <App />
   </BrowserRouter>,
   document.getElementById("root")
 );

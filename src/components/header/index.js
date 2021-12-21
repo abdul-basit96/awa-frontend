@@ -126,6 +126,11 @@ const Header = () => {
                     Learn Adhan
                   </a>
                 </li>
+                <li>
+                  <Link to="/online-quran-reading" className="dropdown-item">
+                    Online Quran Reading
+                  </Link>
+                </li>
               </ul>
             </li>
             <li className="nav-item vl">
