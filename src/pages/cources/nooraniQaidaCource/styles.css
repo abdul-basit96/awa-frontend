@@ -1,0 +1,33 @@
+.paragraph {
+  text-align: justify;
+  color: #777;
+  margin-bottom: 20px;
+  font-size: 14px;
+}
+.paragraph a {
+  text-decoration: none;
+  color: #6dbb0f;
+}
+.paragraph a:hover {
+  color: black;
+}
+ol.order-list {
+  margin-top: 20px;
+  color: #777777;
+  text-rendering: optimizeLegibility;
+}
+ol.order-list li {
+  margin-bottom: 5px;
+  font-weight: 600;
+}
+
+.second-heading {
+  color: #993300;
+  font-weight: 700;
+  font-size: 26px;
+}
+.box-icon {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+}

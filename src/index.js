@@ -5,9 +5,10 @@ import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 import { BrowserRouter } from "react-router-dom";
 import OnlineQuranReading from "./pages/cources/onlineQuranReading";
+import NooraniQaidaCourse from "./pages/cources/nooraniQaidaCource";
 ReactDOM.render(
   <BrowserRouter>
-    <App />
+    <NooraniQaidaCourse />
   </BrowserRouter>,
   document.getElementById("root")
 );
