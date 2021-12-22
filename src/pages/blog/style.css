@@ -1,0 +1,13 @@
+.courseimg {
+  border-color: black;
+  height: 85px;
+  width: 85px;
+}
+.jss30 {
+  border-radius: 5px;
+  border: 3px solid grey;
+}
+
+.jss30:hover {
+  border-color: brown;
+}
