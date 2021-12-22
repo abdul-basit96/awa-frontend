@@ -6,6 +6,7 @@ import FeePlan from "./pages/feePlan";
 import ContactPage from "./pages/contact";
 import FaqPage from "./pages/faqpage";
 import TestimonialPage from "./pages/testimonialpage";
+import BlogPage from "./pages/blog";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
         <Route path="/contact-us" element={<ContactPage />} />
         <Route path="/faq" element={<FaqPage />} />
         <Route path="/testimonial" element={<TestimonialPage />} />
+        <Route path="/blog" element={<BlogPage />} />
         <Route path="*" element={<Navigate to="/" />} />
       </Routes>
     </div>
