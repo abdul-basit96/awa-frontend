@@ -23,10 +23,7 @@ function App() {
         <Route path="/testimonial" element={<TestimonialPage />} />
         <Route path="/blog" element={<BlogPage />} />
         <Route path="*" element={<Navigate to="/" />} />
-        <Route
-          path="/qaida-noorania-online"
-          element={<NooraniQaidaCourse />}
-        ></Route>
+        <Route path="/qaida-noorania-online" element={<NooraniQaidaCourse />} />
       </Routes>
     </div>
   );

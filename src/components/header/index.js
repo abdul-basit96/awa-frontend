@@ -133,7 +133,7 @@ const Header = () => {
                 </li>
                 <li>
                   <Link className="dropdown-item" to="/qaida-noorania-online">
-                    Noorani Qaida
+                    Online Noorani Qaida
                   </Link>
                 </li>
               </ul>
