@@ -2,11 +2,11 @@ import React, { Fragment } from "react";
 import { Button, Col, Container, Row } from "react-bootstrap";
 import Header from "../../../components/header";
 import { BsChevronRight } from "react-icons/bs";
-import "./styles.css";
 import FreeClass from "../../../components/freeclass";
 import LowerCources from "../../../components/lowerCources";
 import ReconnetKids from "../../../components/reconnect-kids";
 import Footer from "../../../components/common/footer/Footer";
+import "./styles.css";
 
 const OnlineQuranReading = () => {
   return (

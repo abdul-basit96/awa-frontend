@@ -1,7 +1,7 @@
 .paragraph {
   text-align: justify;
   color: #777;
-  
+
   margin-bottom: 20px;
   font-size: 14px;
 }
@@ -36,7 +36,4 @@
 }
 .background {
   background-color: #f1f1f1;
-}
-.trial-button{
-  
 }
