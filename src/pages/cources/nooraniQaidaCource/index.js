@@ -2,7 +2,9 @@ import React, { useState } from "react";
 import { Col, Container, Row } from "react-bootstrap";
 import FreeClass from "../../../components/freeclass";
 import Header from "../../../components/header";
+import LowerCources from "../../../components/lowerCources";
 import ReconnetKids from "../../../components/reconnect-kids";
+import Footer from "../../../components/common/footer/Footer";
 import "./styles.css";
 
 const NooraniQaidaCourse = () => {
@@ -54,7 +56,7 @@ const NooraniQaidaCourse = () => {
                 Registered or Book your FREE Trials and enjoy Online Classes
                 with expert online.
               </p>
-              <h3 className="second-heading">
+              <h3 className="sec-heading">
                 Course Outline of Online Noorani Qaida Course
               </h3>
               <ol className="order-list">
@@ -123,23 +125,18 @@ const NooraniQaidaCourse = () => {
         <FreeClass />
       </Container>
       <Container fluid>
-        <div className="lowerContainer bg-secondary pt-2 m-0">
-          <Container className="mt-5">
-            <Row className="text-center bg-white mt-5">
-              <Col
-                lg={6}
-                md={6}
-                sm={6}
-                onMouseHover={() => setBgc(true)}
-                onMouseLeave={() => setBgc(false)}
-              >
-                <div className="d-flex flex-column align-items-center mt-5">
+        <div className="lowerContainer bg-light pt-2 pb-5 m-0">
+          <Container className="mt-5 bg-white">
+            <Row className="text-center mt-5">
+              <Col lg={6} md={6} sm={6}>
+                <div
+                  className="d-flex flex-column align-items-center mt-5 px-5"
+                  onMouseOver={(e) => setBgc(true)}
+                  onMouseLeave={(e) => setBgc(false)}
+                >
                   <div
-                    className={
-                      bgc
-                        ? "box-icon bg-primary d-flex align-center"
-                        : "box-icon bg-light d-flex align-center"
-                    }
+                    style={{ backgroundColor: bgc ? "#DD9933" : "#F1F1F1" }}
+                    className={"box-icon d-flex align-center"}
                   >
                     <img
                       className={"img-fluid align-center p-3"}
@@ -147,11 +144,89 @@ const NooraniQaidaCourse = () => {
                       alt=""
                     />
                   </div>
+                  <div className="text-heading my-2">
+                    <h4 className=" fw-bold">Age Limit For This Course</h4>
+                  </div>
+                  <div>
+                    <p className="paragraph text-center">
+                      A child should be at least four years old to start Noorani
+                      Qaida Online but there is no upper age limit for this
+                      course.
+                    </p>
+                  </div>
+                </div>
+              </Col>
+              <Col lg={6} md={6} sm={6}>
+                <div
+                  className="d-flex flex-column align-items-center mt-5 second"
+                  onMouseOver={(e) => setBgc2(true)}
+                  onMouseLeave={(e) => setBgc2(false)}
+                >
+                  <div
+                    style={{ backgroundColor: bgc2 ? "#DD9933" : "#F1F1F1" }}
+                    className={"box-icon d-flex align-center"}
+                  >
+                    <img
+                      className={"img-fluid align-center p-3"}
+                      src="https://www.quranhost.com/wp-content/uploads/2019/03/how-to-learn-online.png"
+                      alt=""
+                    />
+                  </div>
+                  <div className="text-heading my-2">
+                    <h4 className=" fw-bold">
+                      How to Learn Noorani Qaida Online?
+                    </h4>
+                  </div>
+                  <div>
+                    <p className="paragraph text-center mb-2">
+                      Fill out the <a href="">Registration Form</a> and now and
+                      Take your Free Trials
+                    </p>
+                    <p className="paragraph text-center">
+                      After the Free Trials, you can join Regular Classes after
+                      payment.
+                    </p>
+                  </div>
+                </div>
+              </Col>
+            </Row>
+            <hr />
+            <Row className="text-center mt-5 pb-3">
+              <Col lg={12} md={12} sm={12}>
+                <div
+                  className="d-flex flex-column align-items-center"
+                  onMouseOver={(e) => setBgc3(true)}
+                  onMouseLeave={(e) => setBgc3(false)}
+                >
+                  <div
+                    style={{ backgroundColor: bgc3 ? "#81D742" : "#F1F1F1" }}
+                    className={"box-icon d-flex align-center"}
+                  >
+                    <img
+                      className={"img-fluid align-center p-4"}
+                      src="https://www.quranhost.com/wp-content/uploads/2019/03/register-free-training.png"
+                      alt=""
+                    />
+                  </div>
+                  <div className="text-heading my-2">
+                    <h4 className="fw-bold">
+                      Join Online Noorani Qaida Course Now
+                    </h4>
+                  </div>
+                  <div>
+                    <p className="paragraph text-center">
+                      After the Free Trials, you can join Regular Classes after
+                      payment.
+                    </p>
+                  </div>
                 </div>
               </Col>
             </Row>
           </Container>
         </div>
+        <LowerCources />
+        <ReconnetKids heading="Reconnect your kids with Quran" />
+        <Footer />
       </Container>
     </>
   );
