@@ -7,6 +7,7 @@ import ContactPage from "./pages/contact";
 import OnlineQuranReading from "./pages/cources/onlineQuranReading";
 import BlogPage from "./pages/blog";
 import Testimonials from './pages/testimonialpage';
+import NooraniQaidaCourse from "./pages/cources/nooraniQaidaCource";
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
 
         <Route path="/online-quran-reading" element={<OnlineQuranReading />} />
         <Route path="*" element={<Navigate to="/" />} />
+        <Route path="/qaida-noorania-online" element={<NooraniQaidaCourse />} />
       </Routes>
     </div>
   );

@@ -4,7 +4,7 @@ import "./styles.css";
 
 function ReconnetKids(props) {
   return (
-    <Container fluid>
+    <Container fluid className="p-0 m-0">
       <div className="bgImg">
         <Container>
           <div className="d-flex justify-content-between">
