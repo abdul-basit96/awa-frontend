@@ -91,7 +91,7 @@ const Header = () => {
                 data-bs-toggle="dropdown"
                 aria-expanded="false"
               >
-                COURCES
+                COURSES
               </span>
               <ul
                 className="drop-dd dropdown-menu m-0 p-0 shadow-md "
@@ -172,19 +172,19 @@ const Header = () => {
             </li>
 
             <li className="nav-item vl">
-              <a className="nav-link bd" href="#">
+            <Link className="nav-link nav-link bd" to="/blogs">
                 BLOGS
-              </a>
+              </Link>
             </li>
             <li className="nav-item vl">
-              <a className="nav-link bd" href="#">
+            <Link className="nav-link nav-link bd" to="/testimonials">
                 TESTIMONIALS
-              </a>
+              </Link>
             </li>
             <li className="nav-item vl">
-              <a className="nav-link bd" href="#">
-                CONTACT
-              </a>
+            <Link className="nav-link nav-link bd" to="/contact-us">
+                Contact US
+              </Link>
             </li>
             <li>
               <i class="fas fa-shopping-cart mt-2 ms-2"></i>
