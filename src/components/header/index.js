@@ -131,6 +131,11 @@ const Header = () => {
                     Online Quran Reading
                   </Link>
                 </li>
+                <li>
+                  <Link className="dropdown-item" to="/qaida-noorania-online">
+                    Noorani Qaida
+                  </Link>
+                </li>
               </ul>
             </li>
             <li className="nav-item vl">

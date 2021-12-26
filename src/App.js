@@ -8,6 +8,7 @@ import OnlineQuranReading from "./pages/cources/onlineQuranReading";
 import FaqPage from "./pages/faqpage";
 import TestimonialPage from "./pages/testimonialpage";
 import BlogPage from "./pages/blog";
+import NooraniQaidaCourse from "./pages/cources/nooraniQaidaCource";
 
 function App() {
   return (
@@ -22,6 +23,10 @@ function App() {
         <Route path="/testimonial" element={<TestimonialPage />} />
         <Route path="/blog" element={<BlogPage />} />
         <Route path="*" element={<Navigate to="/" />} />
+        <Route
+          path="/qaida-noorania-online"
+          element={<NooraniQaidaCourse />}
+        ></Route>
       </Routes>
     </div>
   );

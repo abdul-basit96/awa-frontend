@@ -8,7 +8,7 @@ import OnlineQuranReading from "./pages/cources/onlineQuranReading";
 import NooraniQaidaCourse from "./pages/cources/nooraniQaidaCource";
 ReactDOM.render(
   <BrowserRouter>
-    <NooraniQaidaCourse />
+    <App />
   </BrowserRouter>,
   document.getElementById("root")
 );
