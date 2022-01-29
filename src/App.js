@@ -1,31 +1,29 @@
 import "./App.css";
-import CurriculumPrice from "./components/curriculum_and_pricing";
-import KidsCoding from "./components/kids-coding";
-import ChildLearn from "./components/child-learn-section";
-import SairaVideo from "./components/saira-video-section";
-import JrCarousel from "./components/JrCarousel";
-import ExpertEducators from "./components/expert-educators";
-import TopDiv from './components/top-divs';
+import HomePage from "./pages/home";
+import AboutUs from "./pages/aboutUs";
+import { Routes, Route, Navigate } from "react-router-dom";
+import FeePlan from "./pages/feePlan";
+import ContactPage from "./pages/contact";
+import OnlineQuranReading from "./pages/cources/onlineQuranReading";
+import BlogPage from "./pages/blog";
+import Testimonials from './pages/testimonialpage';
+import NooraniQaidaCourse from "./pages/cources/nooraniQaidaCource";
 
 function App() {
   return (
     <div className="App">
-      <TopDiv />
-      <br />
-      <KidsCoding />
-      <br/>
-      <ChildLearn />
-      <br/>
-      <br/>
-      <JrCarousel/>
-      <br/>
-      <br/>
-      <SairaVideo />
-      <br/>
-      <br/>
-      <CurriculumPrice />
-      <br/>
-      <ExpertEducators />
+      <Routes>
+        <Route path="/" element={<HomePage />} />
+        <Route path="/fee-for-quran-course" element={<FeePlan />} />
+        <Route path="/about-us" element={<AboutUs />} />
+        <Route path="/contact-us" element={<ContactPage />} />
+        <Route path="/blogs" element={<BlogPage />} />
+        <Route path="/testimonials" element={<Testimonials />} />
+
+        <Route path="/online-quran-reading" element={<OnlineQuranReading />} />
+        <Route path="*" element={<Navigate to="/" />} />
+        <Route path="/qaida-noorania-online" element={<NooraniQaidaCourse />} />
+      </Routes>
     </div>
   );
 }
