@@ -27,28 +27,28 @@ const HeaderComponent = () => {
         <Navbar.Brand href="#">
           <div className="d-flex flex-column align-items-center">
             <div className="icon">
-              <FaPhoneAlt size={23} />
-              <span className="ms-1 me-2 text">Call Us Office</span>
+              <FaPhoneAlt size={23} color="white" />
+              <span className="ms-1 me-2 text-white">Call Us Office</span>
             </div>
-            <div className="text">00000000</div>
+            <div className="text-white">00000000</div>
           </div>
         </Navbar.Brand>
         <Navbar.Brand href="#">
           <div className="d-flex flex-column align-items-center">
             <div className="icon">
-              <FaPhoneAlt size={23} />
-              <span className="ms-1 me-2 text">Call UK Office</span>
+              <FaPhoneAlt size={23} color="white" />
+              <span className="ms-1 me-2 text-white">Call UK Office</span>
             </div>
-            <div className="text">00000000</div>
+            <div className="text-white">00000000</div>
           </div>
         </Navbar.Brand>
         <Navbar.Brand href="#">
           <div className="d-flex flex-column align-items-center">
             <div className="icon">
-              <MdOutlineEmail size={23} />
-              <span className="ms-1 me-2 text">Email Us</span>
+              <MdOutlineEmail size={23} color="white" />
+              <span className="ms-1 me-2 text-white">Email Us</span>
             </div>
-            <div className="text">arabicwave@gmail.com</div>
+            <div className="text-white">arabicwave@gmail.com</div>
           </div>
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="navbarScroll" />
@@ -59,19 +59,19 @@ const HeaderComponent = () => {
             navbarScroll
           >
             <Nav.Link href="#action1">
-              <FaFacebook size={30} />
+              <FaFacebook size={30} color="black" />
             </Nav.Link>
             <Nav.Link href="#action2">
-              <FaInstagramSquare size={30} />
+              <FaInstagramSquare size={30} color="black" />
             </Nav.Link>
             <Nav.Link href="#action2">
-              <BsYoutube size={30} />
+              <BsYoutube size={30} color="black" />
             </Nav.Link>
             <Nav.Link href="#action2">
-              <FaTwitter size={30} />
+              <FaTwitter size={30} color="black" />
             </Nav.Link>
             <Nav.Link href="#action2">
-              <FaLinkedin size={30} />
+              <FaLinkedin size={30} color="black" />
             </Nav.Link>
             {/* <NavDropdown title="Link" id="navbarScrollingDropdown">
               <NavDropdown.Item href="#action3">Action</NavDropdown.Item>
