@@ -1,6 +1,13 @@
 import React from "react";
-import "./style.css";
-import { Col, Container, Row } from "react-bootstrap";
+import {
+  Button,
+  Container,
+  Form,
+  FormControl,
+  Nav,
+  Navbar,
+  NavDropdown,
+} from "react-bootstrap";
 import {
   FaPhoneAlt,
   FaInstagramSquare,
@@ -8,83 +15,97 @@ import {
   FaLinkedin,
   FaTwitter,
 } from "react-icons/fa";
-import { MdOutlineEmail } from "react-icons/md";
-import { BsYoutube } from "react-icons/bs";
-import { BiCalendarAlt } from "react-icons/bi";
-const Header = (props) => {
-  return (
-    <Container fluid>
-      <div className="p-3">
-        <Row>
-          <Col lg={5} md={5} sm={5}>
-            <div className="d-flex justify-content-evenly">
-              <div className="d-flex flex-column align-items-center">
-                <div className="icon">
-                  <FaPhoneAlt size={23} />
-                  <span className="ms-1 me-2 text">Call Us Office</span>
-                </div>
-                <div className="text">00000000</div>
-              </div>
 
-              {/* ------------------ */}
-              <div className="d-flex flex-column align-items-center">
-                <div className="icon">
-                  <FaPhoneAlt size={23} />
-                  <span className="ms-1 me-2 text">Call Us Office</span>
-                </div>
-                <div className="text">00000000</div>
-              </div>
-              {/* ----------------------------- */}
-              <div className="d-flex flex-column align-items-center">
-                <div className="icon">
-                  <MdOutlineEmail size={23} />
-                  <span className="ms-1 me-2 text">Email Us</span>
-                </div>
-                <div className="text">arabicwave@gmail.com</div>
-              </div>
+import { BsYoutube } from "react-icons/bs";
+import { MdOutlineEmail } from "react-icons/md";
+import "./styles.css";
+const HeaderComponent = () => {
+  return (
+    <Navbar expand="lg" className="navbar-top">
+      {/*bg="#ffcc34" */}
+      <Container>
+        <Navbar.Brand href="#">
+          <div className="d-flex flex-column align-items-center">
+            <div className="icon">
+              <FaPhoneAlt size={23} />
+              <span className="ms-1 me-2 text">Call Us Office</span>
             </div>
-          </Col>
-          <Col lg={1} md={1} sm={1}></Col>
-          <Col
-            lg={6}
-            md={6}
-            sm={6}
-            className="d-flex align-items-center justify-content-end"
+            <div className="text">00000000</div>
+          </div>
+        </Navbar.Brand>
+        <Navbar.Brand href="#">
+          <div className="d-flex flex-column align-items-center">
+            <div className="icon">
+              <FaPhoneAlt size={23} />
+              <span className="ms-1 me-2 text">Call UK Office</span>
+            </div>
+            <div className="text">00000000</div>
+          </div>
+        </Navbar.Brand>
+        <Navbar.Brand href="#">
+          <div className="d-flex flex-column align-items-center">
+            <div className="icon">
+              <MdOutlineEmail size={23} />
+              <span className="ms-1 me-2 text">Email Us</span>
+            </div>
+            <div className="text">arabicwave@gmail.com</div>
+          </div>
+        </Navbar.Brand>
+        <Navbar.Toggle aria-controls="navbarScroll" />
+        <Navbar.Collapse id="navbarScroll">
+          <Nav
+            className="ms-auto me-3 my-2 my-lg-0"
+            style={{ maxHeight: "100px" }}
+            navbarScroll
           >
-            <div className="d-flex align-items-center justify-content-end p-0 me-0">
-              <span className="me-3">
-                <FaFacebook size={30} />
-              </span>
-              <span className="me-3">
-                <FaInstagramSquare size={30} />
-              </span>
-              <span className="me-3">
-                <BsYoutube size={30} />
-              </span>
-              <span className="me-3">
-                <FaTwitter size={30} />
-              </span>
-              <span className="me-3">
-                <FaLinkedin size={30} />
-              </span>
-            </div>
-            <div className="d-flex align-items-center justify-content-end ">
-              <div className="button">
-                <button className=" header-buttons1 ms-2">
-                  Join Class Now
-                </button>
-              </div>
-              <div className="button">
-                <button className=" header-buttons2 ms-2">
-                  <BiCalendarAlt size={25} /> Your Free Trial Class
-                </button>
-              </div>
-            </div>
-          </Col>
-        </Row>
-      </div>
-    </Container>
+            <Nav.Link href="#action1">
+              <FaFacebook size={30} />
+            </Nav.Link>
+            <Nav.Link href="#action2">
+              <FaInstagramSquare size={30} />
+            </Nav.Link>
+            <Nav.Link href="#action2">
+              <BsYoutube size={30} />
+            </Nav.Link>
+            <Nav.Link href="#action2">
+              <FaTwitter size={30} />
+            </Nav.Link>
+            <Nav.Link href="#action2">
+              <FaLinkedin size={30} />
+            </Nav.Link>
+            {/* <NavDropdown title="Link" id="navbarScrollingDropdown">
+              <NavDropdown.Item href="#action3">Action</NavDropdown.Item>
+              <NavDropdown.Item href="#action4">
+                Another action
+              </NavDropdown.Item>
+              <NavDropdown.Divider />
+              <NavDropdown.Item href="#action5">
+                Something else here
+              </NavDropdown.Item>
+            </NavDropdown>
+            <Nav.Link href="#" disabled>
+              Link
+            </Nav.Link> */}
+          </Nav>
+          {/* <Form className="d-flex">
+            <FormControl
+              type="search"
+              placeholder="Search"
+              className="me-2"
+              aria-label="Search"
+            />
+            
+          </Form> */}
+          <Button size="lg" className="btn-first text-black bg-white px-4 me-2">
+            Join Class Now
+          </Button>
+          <Button size="lg" className="btn-second px-4">
+            Your Free Trial Class
+          </Button>
+        </Navbar.Collapse>
+      </Container>
+    </Navbar>
   );
 };
 
-export default Header;
+export default HeaderComponent;
