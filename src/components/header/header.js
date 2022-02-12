@@ -19,13 +19,13 @@ import {
 import { BsYoutube } from "react-icons/bs";
 import { MdOutlineEmail } from "react-icons/md";
 import "./styles.css";
-const HeaderComponent = () => {
+const HeaderTop = () => {
   return (
     <Navbar expand="lg" className="navbar-top">
       {/*bg="#ffcc34" */}
       <Container>
         <Navbar.Brand href="#">
-          <div className="d-flex flex-column align-items-center">
+          <div className="d-flex flex-column flex-xs-row flex-xxs-row align-items-center">
             <div className="icon">
               <FaPhoneAlt size={23} color="white" />
               <span className="ms-1 me-2 text-white">Call Us Office</span>
@@ -108,4 +108,4 @@ const HeaderComponent = () => {
   );
 };
 
-export default HeaderComponent;
+export default HeaderTop;
