@@ -23,7 +23,7 @@ const HeaderTop = () => {
   return (
     <Navbar expand="lg" className="navbar-top">
       {/*bg="#ffcc34" */}
-      <Container>
+      <Container fluid className="px-sm-5 mx-sm-3">
         <Navbar.Brand href="#">
           <div className="d-flex flex-column flex-xs-row flex-xxs-row align-items-center">
             <div className="icon">

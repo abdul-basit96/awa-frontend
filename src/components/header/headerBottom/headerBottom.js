@@ -22,12 +22,33 @@ const HeaderBottom = () => {
   return (
     <Container fluid>
       <Navbar bg="light" variant="light">
-        <Container>
-          <Navbar.Brand href="#home">Navbar</Navbar.Brand>
+        <Container fluid className="px-5">
+          <Navbar.Brand href="#home">
+            <img
+              width={170}
+              src="/images/logo-image.png"
+              className="img-fluid"
+            />
+          </Navbar.Brand>
           <Nav className="ms-auto">
-            <Nav.Link href="#home">Home</Nav.Link>
-            <Nav.Link href="#features">Features</Nav.Link>
-            <Nav.Link href="#pricing">Pricing</Nav.Link>
+            <Nav.Link
+              className="px-3 fw-bold border-primary border-right"
+              href="#home"
+            >
+              Home
+            </Nav.Link>
+            <Nav.Link className="px-3 fw-bold" href="#features">
+              Curriculum
+            </Nav.Link>
+            <Nav.Link className="px-3 fw-bold" href="#pricing">
+              Our Teachers
+            </Nav.Link>
+            <Nav.Link className="px-3 fw-bold" href="#pricing">
+              Blogs
+            </Nav.Link>
+            <Nav.Link className="px-3 fw-bold" href="#pricing">
+              About Us
+            </Nav.Link>
           </Nav>
         </Container>
       </Navbar>
