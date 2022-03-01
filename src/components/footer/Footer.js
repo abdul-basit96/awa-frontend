@@ -4,11 +4,11 @@ import './style.css';
 const Footer = (props) => {
 	return (
 		<Container fluid>
-			<Row>
+			<Row className="justify-content-center">
 				<Col lg={3} md={3} sm={3}>
 					<div className="d-flex flex-column align-items-center py-3 px-4">
 						<div className="heading-about-us text-center">
-							<h1>About Us</h1>
+							<h1 className="heading">About Us</h1>
 						</div>
 						<div className="text-center my-3 fs-4">
 							Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
@@ -20,7 +20,7 @@ const Footer = (props) => {
 				<Col lg={3} md={3} sm={3}>
 					<div className="d-flex flex-column align-items-center py-3 px-4">
 						<div className="heading-about-us text-center">
-							<h1>Important Links</h1>
+							<h3 className="heading ">Important Links</h3>
 						</div>
 						<div className="text-center my-3">
 							<ListGroup className="list" variant="flush">
@@ -50,9 +50,9 @@ const Footer = (props) => {
 					</div>
 				</Col>
 				<Col lg={3} md={3} sm={3}>
-					<div className="d-flex flex-column py-3">
+					<div className="d-flex flex-column py-3 justify-space-between">
 						<div className="heading-about-us text-center">
-							<h1>Download the App</h1>
+							<h1 className="heading">Download the App</h1>
 						</div>
 						<div className="image">
 							<img className="img-fluid px-5" src="/images/google-app.png" alt="" />
@@ -60,6 +60,17 @@ const Footer = (props) => {
 						<div className="safe text-center px-3">
 							<h4>We are using safe payment</h4>
 						</div>
+					</div>
+					<div>
+						<img className="img-fluid" src="/images/payment.png" alt="" />
+					</div>
+				</Col>
+			</Row>
+			<Row className="py-4 mt-5 bg-dark text-white px-1">
+				<Col md={1} />
+				<Col md={6}>
+					<div style={{ fontWeight: 600 }}>
+						<i>Copyright Novazone Consulting Services LLP icon 2021. All Right Reserved</i>
 					</div>
 				</Col>
 			</Row>
