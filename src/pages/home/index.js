@@ -4,6 +4,8 @@ import HeaderTop from '../../components/header/headerTop/headerTop';
 import CarouselSection from '../../components/carouselSection/carouselSection';
 import LetterSection from '../../components/letter-section';
 import Footer from '../../components/footer/Footer';
+import BookFreeClass from '../../components/BookFreeClass';
+import TestTajweed from '../../components/testTajweed/TestTajweed';
 
 const HomePage = () => {
 	return (
@@ -12,6 +14,8 @@ const HomePage = () => {
 			<HeaderBottom />
 			<CarouselSection />
 			<LetterSection />
+			<TestTajweed />
+			<BookFreeClass />
 			<Footer />
 		</div>
 	);

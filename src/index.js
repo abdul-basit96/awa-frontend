@@ -8,7 +8,7 @@ import HeaderComponent from './components/header/comp';
 import TestTajweed from './components/testTajweed/TestTajweed';
 ReactDOM.render(
 	<BrowserRouter>
-		<TestTajweed />
+		<App />
 	</BrowserRouter>,
 	document.getElementById('root')
 );
