@@ -9,6 +9,7 @@ import TestTajweed from '../../components/testTajweed/TestTajweed';
 import Flagship from '../../components/flagship';
 import Syllabus from '../../components/syllabus';
 import TeacherSection from '../../components/TeacherSection';
+import ArabicWaveFeatures from '../../components/arabicWaveFeatures/ArabicWaveFeatures';
 
 const HomePage = () => {
 	return (
@@ -20,8 +21,9 @@ const HomePage = () => {
 			<TestTajweed />
 			<BookFreeClass />
 			<Flagship />
-      <Syllabus />
-      <TeacherSection />
+			<ArabicWaveFeatures />
+			<Syllabus />
+			<TeacherSection />
 			<Footer />
 		</div>
 	);
