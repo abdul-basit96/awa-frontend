@@ -4,11 +4,10 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { BrowserRouter } from 'react-router-dom';
-import HeaderComponent from './components/header/comp';
-import TestTajweed from './components/testTajweed/TestTajweed';
+import ArabicWaveFeatures from './components/arabicWaveFeatures/ArabicWaveFeatures';
 ReactDOM.render(
 	<BrowserRouter>
-		<App />
+		<ArabicWaveFeatures />
 	</BrowserRouter>,
 	document.getElementById('root')
 );
