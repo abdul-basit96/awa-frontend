@@ -8,6 +8,7 @@ import BookFreeClass from '../../components/BookFreeClass';
 import TestTajweed from '../../components/testTajweed/TestTajweed';
 import Flagship from '../../components/flagship';
 import Syllabus from '../../components/syllabus';
+import TeacherSection from '../../components/TeacherSection';
 
 const HomePage = () => {
 	return (
@@ -20,6 +21,7 @@ const HomePage = () => {
 			<BookFreeClass />
 			<Flagship />
       <Syllabus />
+      <TeacherSection />
 			<Footer />
 		</div>
 	);
