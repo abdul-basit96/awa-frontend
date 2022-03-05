@@ -1,7 +1,6 @@
 import React from 'react';
 import { Button, Container, Form, FormControl, Nav, Navbar, NavDropdown } from 'react-bootstrap';
 import { FaPhoneAlt, FaInstagramSquare, FaFacebook, FaLinkedin, FaTwitter } from 'react-icons/fa';
-
 import { BsYoutube } from 'react-icons/bs';
 import { MdOutlineEmail } from 'react-icons/md';
 import './styles.css';
