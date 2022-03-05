@@ -6,6 +6,7 @@ import LetterSection from '../../components/letter-section';
 import Footer from '../../components/footer/Footer';
 import BookFreeClass from '../../components/BookFreeClass';
 import TestTajweed from '../../components/testTajweed/TestTajweed';
+import Flagship from '../../components/flagship';
 
 const HomePage = () => {
 	return (
@@ -16,6 +17,7 @@ const HomePage = () => {
 			<LetterSection />
 			<TestTajweed />
 			<BookFreeClass />
+			<Flagship />
 			<Footer />
 		</div>
 	);
