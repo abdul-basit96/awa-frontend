@@ -4,7 +4,7 @@ import { Container, Col, Row, Form, Button } from 'react-bootstrap';
 import './style.css';
 const Footer = () => {
 	return (
-		<Container fluid>
+		<Container fluid className='bg-light'>
 			<Container>
 				<Row>
 					<Col lg={4} md={4}>
