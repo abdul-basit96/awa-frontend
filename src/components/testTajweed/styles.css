@@ -1,0 +1,22 @@
+.tajweed-heading-1{
+    font-weight: 700;
+    color:#3382c3;
+}
+.tajweed-heading-mid{
+    color:#3382c3;
+    font-weight:350;
+}
+
+.tajweed-button{
+    color: #fff;
+    background-color: orange;
+    border-radius: 40px;
+    outline: none;
+    border: none;
+    font-weight: 600;
+
+}
+.tajweed-heading-2{
+    font-weight: 630;
+    color: #1cbba0;
+}

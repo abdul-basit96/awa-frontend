@@ -4,7 +4,7 @@ import { Container, Col, Row, Form, Button } from 'react-bootstrap';
 import './style.css';
 const Footer = () => {
 	return (
-		<Container fluid className="bg-light">
+		<Container fluid>
 			<Container>
 				<Row>
 					<Col lg={4} md={4}>
@@ -302,7 +302,6 @@ const Footer = () => {
 							<div className="svg">
 								<svg
 									xmlns="http://www.w3.org/2000/svg"
-									xmlns="http://www.w3.org/1999/xlink"
 									id="svg-3140"
 									x="0px"
 									y="0px"
