@@ -7,7 +7,7 @@ import { MdOutlineEmail } from 'react-icons/md';
 import './styles.css';
 const HeaderTop = () => {
 	return (
-		<Navbar expand="lg" className="navbar-top px-4">
+		<Navbar expand="lg" className="navbar-top px-4 py-0">
 			{/*bg="#ffcc34" */}
 			<Container fluid>
 				<Navbar.Brand href="#">
@@ -78,11 +78,11 @@ const HeaderTop = () => {
             />
             
           </Form> */}
-					<Button size="lg" className="btn-first text-black bg-white px-4 me-2">
+					<Button size="lg" className="btn-first text-black bg-white px-4 me-3">
 						Join Class Now
 					</Button>
 					<Button size="lg" className="btn-second px-4">
-						Your Free Trial Class
+						Free Trial Class
 					</Button>
 				</Navbar.Collapse>
 			</Container>
