@@ -31,9 +31,9 @@ const HeaderBottom = () => {
 			</Navbar>
 
 			{/*-----------Sliding ayat text here------ */}
-			<div className="top-marquee-div py-3 text-white">
+			<div className="top-marquee-div py-3 text-white mb-2">
 				<Marquee direction="right" pauseOnHover="true" gradientColor={'none'}>
-					<strong className="fs-4">
+					<strong>
 						بِسْمِ ٱللَّهِ ٱلرَّحْمَـٰنِ ٱلرَّحِيمِ نٓ ۚ وَٱلْقَلَمِ وَمَا يَسْطُرُونَ مَآ أَنتَ بِنِعْمَةِ
 						رَبِّكَ بِمَجْنُونٍۢ وَإِنَّ لَكَ لَأَجْرًا غَيْرَ مَمْنُونٍۢ وَإِنَّكَ لَعَلَىٰ خُلُقٍ عَظِيمٍۢ
 						فَسَتُبْصِرُ وَيُبْصِرُونَ بِأَييِّكُمُ ٱلْمَفْتُونُ إِنَّ رَبَّكَ هُوَ أَعْلَمُ بِمَن ضَلَّ عَن
