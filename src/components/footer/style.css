@@ -1,5 +1,27 @@
-.heading{
+/* .heading{
     font-style: italic;
     font-weight: 700;
     color: rgba(10, 119, 221, 0.87);
+} */
+.second-heading h3 {
+  font-size: 1.3rem;
+  margin-top: 12px;
+}
+.uk-number h3 {
+  font-size: 1.3rem;
+  margin-top: 8px;
+}
+.right-list ul li a:hover,
+.left-list ul li a:hover {
+  color: black;
+}
+.right-list ul li a,
+.left-list ul li a {
+  color: #727272;
+  text-decoration: none;
+}
+.right-list ul li,
+.left-list ul li {
+  margin-top: 8px;
+  font-size: 17px;
 }
