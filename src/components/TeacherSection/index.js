@@ -7,7 +7,7 @@ const TeacherSection = () => {
     const images = ['clock.png', 'location.png', 'stand.png'];
     const text = ['Choose fjdskjf jkdsfjiweh wehjewrhj', 'Choose fjdskjf jkdsfjiweh wehjewrhj', 'Choose fjdskjf jkdsfjiweh wehjewrhj'];
     const title = ['Set your own rate', 'Teach anytime, anywhere', 'Grow professionally'];
-    const list = ['Steady stream of new students', 'Smart calender', 'Interactive classroom'];
+    const list = ['Steady stream of new students', 'Smart calender', 'Interactive classroom', 'Convenient payment methods', 'Training webinars','Supportive tutor comunity'];
     return (
         <>
             <Container fluid className='py-5'>
@@ -40,7 +40,7 @@ const TeacherSection = () => {
                                     <div className='teacherSection-listWrapper'>
                                         <FaCheck style={{
                                             color: 'green',
-                                            marginTop: '5px',
+                                            marginTop: '8px',
                                             marginRight: '15px'
                                         }}
                                         />

@@ -83,10 +83,7 @@ const ArabicWaveFeatures = () => {
 				<Container>
 					<Row className="justify-content-center">
 						<Col md={12} className="px-4 py-2 mb-4 bg-white" style={{ borderRadius: 30 }}>
-							<div
-								className="w-100 text-center fs-3"
-								style={{ color: 'rgb(20, 68, 130)', fontWeight: 700 }}
-							>
+							<div className="w-100 text-center fs-3" style={{ color: '#0E556A', fontWeight: 700 }}>
 								<i>Arabic Wave's most features</i>
 							</div>
 						</Col>

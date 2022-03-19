@@ -1,9 +1,14 @@
 .feature-div{
-    background-color: rgb(101, 175, 245);
+    background-color: #0B7B9E;
     color: white;
 }
+.feature{
+    max-width: 50rem;
+}
+
 .text{
     font-weight: 600;
+    font-size: large;
 }
 .description-heading{
     font-weight: 700;

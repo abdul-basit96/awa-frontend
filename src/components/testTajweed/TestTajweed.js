@@ -16,7 +16,7 @@ const TestTajweed = () => {
 				</Row>
 				<Row className="justify-content-center">
 					<Col className="text-center">
-						<div className="tajweed-heading-mid fs-1 mt-2">
+						<div className="tajweed-heading-mid fs-1">
 							Learn Tajweed Ul Quran and other Arabic Cources of on Place
 						</div>
 					</Col>
