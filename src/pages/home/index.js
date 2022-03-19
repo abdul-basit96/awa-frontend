@@ -24,6 +24,7 @@ const HomePage = () => {
 			<ArabicWaveFeatures />
 			<Syllabus />
 			<TeacherSection />
+			<TajweedImportance />
 			<Footer />
 		</div>
 	);
