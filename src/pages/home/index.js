@@ -10,6 +10,7 @@ import Flagship from '../../components/flagship';
 import Syllabus from '../../components/syllabus';
 import TeacherSection from '../../components/TeacherSection';
 import ArabicWaveFeatures from '../../components/arabicWaveFeatures/ArabicWaveFeatures';
+import TajweedImportance from '../../components/tajweedImportance/TajweedImportance';
 
 const HomePage = () => {
 	return (
