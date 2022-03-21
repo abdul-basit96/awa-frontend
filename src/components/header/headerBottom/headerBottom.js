@@ -19,6 +19,7 @@ const HeaderBottom = () => {
 						<Nav.Link className="px-3 fw-bold" onClick={() => { navigate('/curriculum-page') }}>
 							Curriculum
 						</Nav.Link>
+
 						<Nav.Link className="px-3 fw-bold" href="#pricing">
 							Our Teachers
 						</Nav.Link>
