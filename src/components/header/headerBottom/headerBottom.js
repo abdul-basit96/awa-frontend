@@ -2,7 +2,9 @@ import React from 'react';
 import Marquee from 'react-fast-marquee';
 import { Button, Container, Form, FormControl, Nav, Navbar, NavDropdown } from 'react-bootstrap';
 import './style.css';
+import { Link, NavLink, useNavigate } from 'react-router-dom';
 const HeaderBottom = () => {
+	let navigate = useNavigate();
 	return (
 		<Container fluid>
 			<Navbar bg="light" variant="light">
@@ -11,10 +13,10 @@ const HeaderBottom = () => {
 						<img width={170} src="/images/logo-image.png" className="img-fluid" />
 					</Navbar.Brand>
 					<Nav className="ms-auto">
-						<Nav.Link className="px-3 fw-bold border-primary border-right" href="#home">
+						<Nav.Link className="px-3 fw-bold border-primary border-right" onClick={() => { navigate('/') }}>
 							Home
 						</Nav.Link>
-						<Nav.Link className="px-3 fw-bold" href="#features">
+						<Nav.Link className="px-3 fw-bold" onClick={() => { navigate('/curriculum-page') }}>
 							Curriculum
 						</Nav.Link>
 						<Nav.Link className="px-3 fw-bold" href="#pricing">
