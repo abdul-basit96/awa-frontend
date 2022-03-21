@@ -1,0 +1,45 @@
+
+.table-body td{
+    font-size: 2rem;
+    height: 50px;
+    vertical-align: middle;
+    text-align: center;
+}
+.learn-tajweed-div{
+    background-color: #1C7498;
+    color: white;
+    border-radius: 10px;
+    font-weight: 600;
+}
+
+.list{
+    list-style: none;
+    display: inline-flex;
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    background-color: #C8DFAB;
+}
+.list li{
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+.list li:hover{
+    cursor: pointer;
+}
+.list li a:hover{
+    cursor: pointer;
+}
+.content{
+    background-color: #0B7B9E;
+    color: white;
+    border-radius: 15px;
+}
+.button-book-class{
+    font-weight: 700;
+    background-color: #FF8D1A;
+    color:white;
+    border: none;
+    border-radius: 15px;
+    font-size: 1.5rem;
+}

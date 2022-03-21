@@ -1,0 +1,37 @@
+.header-text{
+    font-weight: 700;
+    font-size: 11px;
+}
+div.header-text-top, 
+p.header-text-top{
+    font-weight: 700;
+    font-size: 13px;
+}
+div.card-header{
+    background-color: #C8DFAB;
+}
+.header-text span{
+    color: white;
+}
+.card-footer .text{
+    font-size:10px;
+    line-height: 0.3;
+}
+.button-enroll button{
+    outline: none;
+    color: white;
+    background-color: #6CBB0F;
+    font-weight: 600;
+    border: none;
+}
+.inner-text{
+    font-size: 14px;
+}
+.button-enroll button:hover,
+.button-enroll button:focus,
+.button-enroll button:focus-visible{
+    outline: none;
+    color: white;
+    background-color: #61b105;
+    font-weight: 600;
+}
