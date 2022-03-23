@@ -43,3 +43,85 @@
     border-radius: 15px;
     font-size: 1.5rem;
 }
+
+.hifz-ul-quran-header{
+    background-color: #1C7498;
+    border-radius: 15px;
+}
+.hifz-ul-quran-header h2{
+    font-weight: 600;
+    color: white;
+    line-height: 1.4;
+}
+.hifz-ul-quran-header h2 span{
+    background-color: #EFEFEF;
+    color: #1C7498;
+    border-radius: 10px;
+    padding: 0px 10px; 
+}
+.learn-arabic-container {
+    background-color: #EFEFEF;
+    padding: 40px 0px;
+    margin: 30px 0px;
+}
+.learn-arabic{
+    background-color: #D1D36C;
+    border-radius: 15px;
+}
+.learn-arabic h1{
+    font-weight: 600;
+    font-size: 3rem;
+    color:white;
+}
+.learn-arabic-content{
+    background-color: #6DD6CD;
+    color: white;
+    border-radius: 15px;
+}
+.learn-arabic-content h2{
+    font-weight: 600;
+}
+.learn-urdu-container{
+    padding: 40px 0px;
+    margin: 30px 0px;
+}
+.learn-urdu{
+    background-color: #D17B6D;
+    border-radius: 15px;
+}
+.learn-urdu h1{
+    font-weight: 600;
+    font-size: 3rem;
+    color:white;
+}
+.learn-urdu-content{
+    background-color: #6DD6CD;
+    color: white;
+    border-radius: 15px;
+}
+.learn-urdu-content h2{
+    font-weight: 600;
+}
+.learn-adhaan-container{
+    background-color: #EFEFEF;
+}
+.learn-adhaan{
+     background-color: #D17B6D;
+    border-radius: 15px;
+}
+.learn-adhaan h1{
+     font-weight: 600;
+    font-size: 3rem;
+    color:white;
+}
+.learn-adhaan-content{
+    background-color: #6DD6CD;
+    color: white;
+    border-radius: 15px;
+}
+.learn-adhaan-content h2{
+    font-weight: 600;
+}
+.adhaan-image{
+    transform: scale(1.5);
+}

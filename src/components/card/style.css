@@ -13,6 +13,12 @@ div.card-header{
 .header-text span{
     color: white;
 }
+.card-save{
+    background-color: #6CBB0F;
+    color:white;
+
+}
+
 .card-footer .text{
     font-size:10px;
     line-height: 0.3;
