@@ -310,6 +310,82 @@ const CurriculamPage = () => {
           </Col>
         </Row>
       </Container>
+
+      {/* kid image with content */}
+      <Container fluid className="learn-adhaan-container">
+        <Row className='align-items-start py-5 bg-white'>
+          <Col md={6} className="">
+            <div className="d-flex flex-column flex-wrap">
+              <div className=' mb-2 text-center kid-image-div'>
+                <img style={{ borderRadius: 15 }} className="kid-image img-fluid"
+                  src={`${process.env.PUBLIC_URL}/images/kid.png`} alt="" />
+              </div>
+
+            </div>
+          </Col>
+          <Col md={6} className="px-5">
+            <div className="d-flex flex-column align-items-center justify-content-center">
+              <div className='kid-content w-75 mx-4 p-3 my-3 text-start d-flex flex-column'>
+                <h2>Lorem ipsum dolor Similique</h2>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                Nisi veritatis aliquid omnis labore non id ipsam rem esse? Illo,
+                nobis distinctio expedita dolorum explicabo est sit sunt ratione a delectus.
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sapiente, quas placeat?
+                Necessitatibus quia minima dolorem error aliquid fuga. Iste ex, nostrum et repudiandae
+                tempora esse quisquam ullam voluptatum doloribus eius.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque architecto veniam
+                numquam nemo saepe praesentium illum dicta exercitationem at velit, illo nostrum ab
+                laborum facilis. Perspiciatis dolorum saepe ducimus quo.
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maxime temporibus, esse ex maiores accusamus qui eum repudiandae magni praesentium at consequatur molestias libero quibusdam laborum consequuntur omnis assumenda saepe illo!
+              </div>
+            </div>
+          </Col>
+        </Row>
+
+
+        {/*  */}
+        <Row className="justify-content-ceter discount-customized-plan my-5 pb-5">
+          <Col md={4}>
+            <div className='d-flex justify-content-end align-items-center'>
+              <button className='button-book-class' style={{ padding: '25px 80px' }}>
+                Discount
+              </button>
+            </div>
+          </Col>
+          <Col md={6}>
+            <div className='d-flex flex-column align-items-stretch'>
+              <div className='fs-3'>
+                <span className='fw-bold'>Family Package:</span> 15% Discount for families.
+              </div>
+              <div className='fs-3'>
+                <span className='fw-bold '>Low-Income Families:</span> 10% Discount for those who can't afford the full fee.
+              </div>
+            </div>
+
+          </Col>
+        </Row>
+
+        {/*  */}
+        <Row className="justify-content-ceter discount-customized-plan my-5 pb-5">
+          <Col md={4}>
+            <div className='d-flex justify-content-end align-items-center'>
+              <button className='button-book-class' style={{ padding: '25px 35px' }}>
+                Customized Plan
+              </button>
+            </div>
+          </Col>
+          <Col md={6}>
+            <div className='d-flex flex-column align-items-stretch'>
+              <div className='fs-3'>
+                <span className='fw-bold'>Pay Per Class:</span> If you don't want to take monthly plan, Pay $5 Per Class (30 minutes)
+              </div>
+              <div className='fs-3'>
+                <span className='fw-bold '>Customized Plan:</span> Contact us if you need a customized plan for your kids to meet your needs.
+              </div>
+            </div>
+          </Col>
+        </Row>
+      </Container>
     </>
   )
 }

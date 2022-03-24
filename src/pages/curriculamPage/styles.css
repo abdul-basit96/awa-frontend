@@ -106,7 +106,7 @@
     background-color: #EFEFEF;
 }
 .learn-adhaan{
-     background-color: #D17B6D;
+     background-color: #0FAF97;
     border-radius: 15px;
 }
 .learn-adhaan h1{
@@ -122,6 +122,16 @@
 .learn-adhaan-content h2{
     font-weight: 600;
 }
-.adhaan-image{
-    transform: scale(1.5);
+.kid-image-div{
+    overflow: hidden;
+}
+.kid-image{
+    position: relative;
+    transform: scale(1.8);    
+    top: 200px; 
+    left:30%;
+ }
+.kid-content{
+    border: 5px solid #1C84AE;
+    border-radius: 15px;
 }
