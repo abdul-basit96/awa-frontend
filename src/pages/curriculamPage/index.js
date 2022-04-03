@@ -1,9 +1,10 @@
 import React, { useState } from 'react';
 import { Col, Container, Row, Table, Tabs, Tab, Nav, Card } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
 import CurriculumCard from '../../components/card';
+import Footer from '../../components/footer/Footer';
 import HeaderBottom from '../../components/header/headerBottom/headerBottom';
 import HeaderTop from '../../components/header/headerTop/headerTop';
-
 import './styles.css'
 const CurriculamPage = () => {
   const [oneToOneTab, setOneToOneTab] = useState(true)
@@ -210,7 +211,14 @@ const CurriculamPage = () => {
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque architecto veniam
                 numquam nemo saepe praesentium illum dicta exercitationem at velit, illo nostrum ab
                 laborum facilis. Perspiciatis dolorum saepe ducimus quo.
+                <div className='d-flex justify-content-end'>
+                  <Link to="/course-page" className='button-more'>
+                    Read More
+                  </Link>
+                </div>
+
               </div>
+
             </div>
           </Col>
           <Col md={6}>
@@ -385,6 +393,7 @@ const CurriculamPage = () => {
             </div>
           </Col>
         </Row>
+        <Footer />
       </Container>
     </>
   )

@@ -268,7 +268,7 @@ const Footer = () => {
 										src="https://www.quranhost.com/wp-content/uploads/2019/04/Norton-Secured.svg"
 										alt="Norton Secured"
 										width="92px"
-										// height="300"
+									// height="300"
 									/>
 								</div>
 								<div className="virus-image me-3 pt-1">
@@ -278,7 +278,7 @@ const Footer = () => {
 										src="https://www.quranhost.com/wp-content/uploads/2019/04/McAfee-Secure.svg"
 										alt="McAfee Secure"
 										width="92px"
-										// height="30"
+									// height="30"
 									/>
 								</div>
 								<div className="virus-image me-2 ">
@@ -288,7 +288,7 @@ const Footer = () => {
 										src="https://www.quranhost.com/wp-content/uploads/2019/04/comodo-seal.svg"
 										alt="Comodo Secure"
 										width="92px"
-										// height="300"
+									// height="300"
 									/>
 								</div>
 							</div>
@@ -416,8 +416,8 @@ const Footer = () => {
 					</Col>
 				</Row>
 			</Container>
-			<Row>
-				<Col lg={12} md={12} sm={12}>
+			<Row className=''>
+				<Col lg={12} md={12} sm={12} className="px-0">
 					<div className="d-flex bg-dark justify-content-center">
 						<div className="copyright text-white pt-4 pb-4">
 							Copyright © 2019 QuranHost, All rights reserved
