@@ -5,6 +5,7 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { BrowserRouter } from 'react-router-dom';
 import CurriculamPage from './pages/curriculamPage';
+import Course from './pages/course/Course.js'
 ReactDOM.render(
 	<BrowserRouter>
 		<App />

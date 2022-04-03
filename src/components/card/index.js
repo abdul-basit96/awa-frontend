@@ -9,7 +9,7 @@ const CurriculumCard = () => {
                     <div className=" mb-5 header-text-top">Text</div>
                     <div className='d-flex justify-content-between'>
                         <div className='header-text'>00 Classes</div>
-                        <div className='px-2 header-text'>Save 5%</div>
+                        <div className='ps-2 pe-1 header-text card-save'>Save 5%</div>
                     </div>
                 </div>
             </Card.Header>
