@@ -33,8 +33,6 @@ const Course = () => {
         }
     }
 
-
-
     return (
         <Container fluid className="p-0 m-0">
             <HeaderTop />
@@ -45,7 +43,7 @@ const Course = () => {
                         <Col md={6} className="text-justify">
                             <div className="ps-4">
                                 <div className="heading-1">
-                                    <h1>Investing in <br />Knowledge and <br /> Your Future</h1>
+                                    <h1 className="fw-bold">Investing in <br />Knowledge and <br /><span className='span-text'> Your Future</span></h1>
                                 </div>
                                 <div className="text-gray pe-5 me-5 text-wrap text-left small-text">
                                     With the help of E-Learning, create your own path and drive on
