@@ -393,8 +393,9 @@ const CurriculamPage = () => {
             </div>
           </Col>
         </Row>
-        <Footer />
+
       </Container>
+      <Footer />
     </>
   )
 }

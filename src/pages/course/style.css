@@ -13,6 +13,7 @@
     color: #3BB7FF;
 }
 button.trial-button{
+    font-size: large;
     top: 300px;
     right: 30px;
     background-color: orange;
@@ -61,7 +62,7 @@ div.course-card{
     font-weight: 600;
     border-radius: 35px;
     color:white;
-    border: 1px solid white;
+    border: 2px solid white;
     
 }
 button.btn:first-child:hover{
