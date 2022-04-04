@@ -26,7 +26,7 @@ const HeaderBottom = () => {
 						<Nav.Link className="px-3 fw-bold" href="#pricing">
 							Blogs
 						</Nav.Link>
-						<Nav.Link className="px-3 fw-bold" href="#pricing">
+						<Nav.Link className="px-3 fw-bold" onClick={() => navigate("/about-us")}>
 							About Us
 						</Nav.Link>
 					</Nav>
