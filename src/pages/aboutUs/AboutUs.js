@@ -3,7 +3,7 @@ import { Card, Col, Container, Image, Row } from "react-bootstrap";
 import HeaderTop from "../../components/header/headerTop/headerTop";
 import HeaderBottom from "../../components/header/headerBottom/headerBottom";
 import Footer from '../../components/footer/Footer'
-// import ReconnetKids from "../../components/reconnect-kids";
+import ReconnetKids from "../../components/reconnect-kids";
 import "./styles.css";
 
 const AboutUs = (props) => {
@@ -291,7 +291,7 @@ const AboutUs = (props) => {
                 </Container>
             </div>
             <div className="" style={{ position: "relative" }}>
-                {/* <ReconnetKids heading="Reconnect your kids with Quran" /> */}
+                <ReconnetKids heading="Reconnect your kids with Quran" />
             </div>
             <div className="footer">
                 <Footer />
